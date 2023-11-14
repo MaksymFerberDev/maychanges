@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/photo-5.jpg",
          name: "Kenneth Pettibone",
          link: " https://www.linkedin.com/in/kenneth-pettibone-36116a1b3/",
-         position: "Associate",
+         position: "Director of FPA and M&A",
          short: "As an Associate, Kenneth’s responsibilities include supporting the strategic initiatives of portfolio companies, evaluating investment opportunities, and assisting in the deal execution and diligence of new investments.",
          long: ["Since joining Industrial Succession, he has helped to source a growing list of potential platform and add-on acquisitions using data analytics and strategic growth strategies. Prior to joining Industrial Succession, Kenneth spent time working in commercial real estate where he was part of a team that was involved in multiple successful investment opportunities in the Southwest. While touching on a variety of steps along the process, his main responsibilities were analyzing cash flows and assessing returns for clients.", "Kenneth obtained his Bachelor of Arts degree in Business Management from Azusa Pacific University in 3 years while pitching competitively for the school’s NCAA baseball team. Kenneth also holds an MBA in Finance from Azusa Pacific University. Born and raised in Orange County, CA, Kenneth enjoys surfing, hiking and playing tennis."]
      },
@@ -31,7 +31,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/photo-4.jpg",
         name: "Mike Moser",
         link: "https://www.linkedin.com/in/mike-moser-a96142b",
-        position: "COO Pen Manufacturing, ",
+        position: "COO-Manufacturing, ",
         short: "Mike is a highly accomplished senior-level executive with an extensive background in aerospace manufacturing. He has been successfully leading teams of professionals with sound strategy and decisive leadership for over two decades. With a demonstrated talent for reviving businesses and implementing strategic corporate infrastructure adjustments., he has been able to successfully work with senior leadership to meet growth expectations while improving efficiency, quality, and customer satisfaction. With his analytical mind and decisive nature, Mike is a proven leader with a high level of manufacturing and technical expertise. ",
         long: ["In his role as Director of Operations at Cadence Aerospace from February 2016 through July 2017, Mike was responsible for the smooth integration of two manufacturing companies into a single $95 million dollar entity. He also successfully turned around three critical customers, returning them from years of delinquency. After a private equity sale and merger in 2017, Mike took on the role of Director of Operations at Precision Components, owned by Triumph Group. In this role, Mike was responsible for guiding and overseeing the various control departments of a $40m Aerospace Gantry facility. Mike successfully increased manufacturing throughput by over 32% by implementing innovative SMED techniques and also revised ERP standards that drove company-wide use of metric-driven performance measurements. In his role with US Precision Sheet Metal he began in December of 2018, Mike was able to turn the company around from a $1.8M loss in 2018 to a $2.0M NI profit in 2019. In just a year’s time, he implemented a new ERP system that grew annual gross margins from 23% to 51%. Also, he obtained Nadcap certification while decreasing the overall cost of quality by 47%. <br> <br>As a trusted partner and direct collaborator with Presidents and CEOs on all operational matters and P&L results, Mike is focused on facilitating high-level strategy improvement and implementation of initiatives on schedule, and on budget through, progressive levels of command.  Mike holds degrees in economics and business administration and certificates in Lean Manufacturing, Zero-Defect Planning, and Statistical Process Control."]
 
@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/photo-4.jpeg",
         name: "Sam Rosati",
         link: "http://linkedin.com/in/sam-rosati-68787a8",
-        position: "Investor-ASM",
+        position: "Strategic Investor-Advisor",
         short: "Sam Rosati has been the Founder of the Pursuant Capital since 2016.",
         long: ["Pursuant Capital is a Micro Private Equity firm that buys and grows Florida-based businesses with a “forever” holding period. After acquiring 6 companies, Sam supports other Micro PE groups and Industrial Succession through co-investments and post-close experience.<br><br>Sam Rosati holds a JD degree in Law from the University of Virginia School of Law. You can learn more about Sam and his support for Industrial Succession investments at<a href='https://www.pursuantcapital.com/' target='blank' style='font-size: 14px;font-weight: 500; color: #8c0000;  line-height: 21px;'>  PursuantCapital.com</a>"]
     },
@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/ericodmark.jpeg",
         name: "Eric Odmark",
         link: "https://www.linkedin.com/in/ericodmark",
-        position: "Investor-ASM",
+        position: "Strategic Investor-Advisor",
         short: "Eric Odmark has been the Co-founder of the Trailside Equity Partners since 2022 ",
         long: ["Trailside Equity Partners is a Micro Private Equity firm that buys and grows Midwest-based businesses with a “forever” holding period. After acquiring 7 companies under the metal fabricator, IMH’s, umbrella, Eric and his partner Mark support Industrial Succession through co-investments and post-close experience. Eric Odmark holds an MBA in Finance from Butler University. You can learn more about Eric and his support for Industrial Succession investments at IMH.com"]
 
@@ -58,13 +58,40 @@ jQuery(document).ready(function() {
         photo: "./img/photos/oneida_nunez.png",
         name: "Oneida Nunez",
         link: "https://www.linkedin.com/",
-        position: "VP of Construction-ASM",
-        short: "",
-        long: [""]
+        position: "Vice President of Construction-ASM",
+        short: "Oneida Nunez is a highly accomplished construction professional with an exemplary track record in strategic planning and leading complex, multi-billion dollar projects. She has been successfully managing large-scale teams and organizations for over 15 years with a unique and innovative strategic vision and a proven ability to execute. Oneida holds a Bachelor of Science in Civil Engineering from Loyola Marymount University, Los Angeles, CA. Since she earned her degree, she has excelled in areas such as project development, management of change (MOC), risk assessment, procurement, continuous improvement, and change management. ",
+        long: [
+            "In a previous role as a senior project manager at Kiewit Los Angeles, Oneida expertly implemented enterprise-wide business processes and tools with flawless precision. In this role, she proactively trained teams of all sizes and supervised the development of technical provision plans, project delivery strategies, legal considerations, revenue forecasting techniques, financial reporting standards, and design optimization tactics. She also coordinated with stakeholders for the development of new project contracts and specifications in order to help identify key business development opportunities. In this role, Oneida developed advanced knowledge and savvy problem-solving techniques that have enabled her to ensure the success of numerous highly nuanced projects under her supervision.",
+            `In her role as the Director of Program Management for the Los Angeles County Metropolitan Transportation Authority, Oneida spearheaded the delivery of major construction and design projects and was able to successfully execute their $40 Billion Capital Program. During this time, Oneida oversaw the development of cost analysis, feasibility studies, contract development, and procurement strategy for billion-dollar LightRail, Highway, and Capital Improvement projects.`,
+            `In 2019, Oneida moved on to accept a position as the Manager of Project Development in Construction for the Southern California Gas Company. In this role, Oneida was able to implement innovative solutions and new technologies that helped drive process improvement and maximize the long-term value delivered by their capital projects. Oneida further developed her advanced leadership skills in this role at multiple levels ranging from training and development to succession planning. `,
+            `As a proven leader with a demonstrated ability to drive innovation and project success, Oneida is highly motivated to cultivate long-term success in her role as Industrial Succession’s VP of Construction.`,
+    ]
 
-    }
-        
+    },
+    {
+        photo: "./img/photos/carter_demore.png",
+        name: "Carter DeMore",
+        link: "https://www.linkedin.com/in/carterdemore",
+        position: "Associate",
+        short: "",
+        long: [
+            "Carter DeMore, a native to California, brings an impressive background in organizational communications, marketing, and entrepreneurship to our team at Industrial Succession Group. Embarking on his professional journey with a Minor in Business Marketing at Griffith University in Australia, Carter honed his skills in business development and communication. As Vice President of the Griffith Boardriders Club, he notably tripled its membership.",
+            `Advancing in his academic journey, Carter achieved a Bachelor of Arts in Organizational Communication Studies. Following graduation, he showcased his business acumen by strategically acquiring a golf company. Through adept growth strategies and meticulous adjustments to the business model, he achieved a 20% increase in profit margins, culminating in a successful exit within a two-year period. Carter's proficiency in cultivating vital relationships also led to strategic partnerships with esteemed golf courses and a prominent corporation in Southern California.`,
+            `Transitioning into the role of a business broker/M&A advisor, Carter secured an impressive $33 million in listing volume within a brief 8-month period. His proficiency in devising innovative business models is shown by the strategic direction he provided to a startup, steering it towards a profitable exit.`,
+            `Motivated by an unwavering dedication to excellence and continual growth, Carter is a valuable asset to our team. Leveraging his strategic vision, entrepreneurial spirit, and M&A expertise, he cultivates invaluable connections at Industrial Succession Group, contributing to our mission of preserving business legacies.`
+        ]
+    },
 	];
+    jQuery("[data-button]").on('click', function() {
+        console.log(jQuery("[data-button]")[0].innerText)
+        if(jQuery("[data-button]")[0].innerText === "More") {
+            jQuery(".msp_item__content__text")[0].style.maxHeight = '100%';
+            jQuery("[data-button]")[0].innerText = "Less";
+        } else if(jQuery("[data-button]")[0].innerText === "Less"){
+            jQuery(".msp_item__content__text")[0].style.maxHeight = '70px';
+            jQuery("[data-button]")[0].innerText = "More";
+        }
+    })
     if (1200 < jQuery(window).width()) {
         const t = jQuery("#manufacturing"),
             s = jQuery("#attributes-row");
