@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/photo-5.jpg",
          name: "Kenneth Pettibone",
          link: " https://www.linkedin.com/in/kenneth-pettibone-36116a1b3/",
-         position: "Director of FPA and M&A",
+         position: "Director of Finance and M&A",
          short: "As an Associate, Kenneth’s responsibilities include supporting the strategic initiatives of portfolio companies, evaluating investment opportunities, and assisting in the deal execution and diligence of new investments.",
          long: ["Since joining Industrial Succession, he has helped to source a growing list of potential platform and add-on acquisitions using data analytics and strategic growth strategies. Prior to joining Industrial Succession, Kenneth spent time working in commercial real estate where he was part of a team that was involved in multiple successful investment opportunities in the Southwest. While touching on a variety of steps along the process, his main responsibilities were analyzing cash flows and assessing returns for clients.", "Kenneth obtained his Bachelor of Arts degree in Business Management from Azusa Pacific University in 3 years while pitching competitively for the school’s NCAA baseball team. Kenneth also holds an MBA in Finance from Azusa Pacific University. Born and raised in Orange County, CA, Kenneth enjoys surfing, hiking and playing tennis."]
      },
@@ -31,7 +31,7 @@ jQuery(document).ready(function() {
         photo: "./img/photos/photo-4.jpg",
         name: "Mike Moser",
         link: "https://www.linkedin.com/in/mike-moser-a96142b",
-        position: "COO-Manufacturing, ",
+        position: "COO-Manufacturing",
         short: "Mike is a highly accomplished senior-level executive with an extensive background in aerospace manufacturing. He has been successfully leading teams of professionals with sound strategy and decisive leadership for over two decades. With a demonstrated talent for reviving businesses and implementing strategic corporate infrastructure adjustments., he has been able to successfully work with senior leadership to meet growth expectations while improving efficiency, quality, and customer satisfaction. With his analytical mind and decisive nature, Mike is a proven leader with a high level of manufacturing and technical expertise. ",
         long: ["In his role as Director of Operations at Cadence Aerospace from February 2016 through July 2017, Mike was responsible for the smooth integration of two manufacturing companies into a single $95 million dollar entity. He also successfully turned around three critical customers, returning them from years of delinquency. After a private equity sale and merger in 2017, Mike took on the role of Director of Operations at Precision Components, owned by Triumph Group. In this role, Mike was responsible for guiding and overseeing the various control departments of a $40m Aerospace Gantry facility. Mike successfully increased manufacturing throughput by over 32% by implementing innovative SMED techniques and also revised ERP standards that drove company-wide use of metric-driven performance measurements. In his role with US Precision Sheet Metal he began in December of 2018, Mike was able to turn the company around from a $1.8M loss in 2018 to a $2.0M NI profit in 2019. In just a year’s time, he implemented a new ERP system that grew annual gross margins from 23% to 51%. Also, he obtained Nadcap certification while decreasing the overall cost of quality by 47%. <br> <br>As a trusted partner and direct collaborator with Presidents and CEOs on all operational matters and P&L results, Mike is focused on facilitating high-level strategy improvement and implementation of initiatives on schedule, and on budget through, progressive levels of command.  Mike holds degrees in economics and business administration and certificates in Lean Manufacturing, Zero-Defect Planning, and Statistical Process Control."]
 
@@ -82,16 +82,6 @@ jQuery(document).ready(function() {
         ]
     },
 	];
-    jQuery("[data-button]").on('click', function() {
-        console.log(jQuery("[data-button]")[0].innerText)
-        if(jQuery("[data-button]")[0].innerText === "More") {
-            jQuery(".msp_item__content__text")[0].style.maxHeight = '100%';
-            jQuery("[data-button]")[0].innerText = "Less";
-        } else if(jQuery("[data-button]")[0].innerText === "Less"){
-            jQuery(".msp_item__content__text")[0].style.maxHeight = '70px';
-            jQuery("[data-button]")[0].innerText = "More";
-        }
-    })
     if (1200 < jQuery(window).width()) {
         const t = jQuery("#manufacturing"),
             s = jQuery("#attributes-row");

@@ -174,6 +174,13 @@ a:visited {
     box-sizing: border-box
 }
 
+.position {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8c0000;
+    line-height: 19px
+}
+
 .hidden {
     display: none !important
 }
@@ -1516,7 +1523,7 @@ a.main-btn {
     -ms-flex-pack: end;
     justify-content: flex-end;
     width: 100%;
-    height: 153px;
+    height: 160px;
     margin: -50px 0 0 0;
     padding: 0 30px 20px;
     background-color: #fff;
@@ -2582,6 +2589,7 @@ i.fa.fa-arrow-right {
     max-height: 340px;
     width: 100%;
     height: 340px;
+    align-self: baseline;
 }
 
 .msp_item__img{
