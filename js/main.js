@@ -57,7 +57,7 @@ jQuery(document).ready(function() {
     {
         photo: "./img/photos/oneida_nunez.png",
         name: "Oneida Nunez",
-        link: "https://www.linkedin.com/",
+        link: "https://www.linkedin.com/in/oneida-nunez-63216077",
         position: "Vice President of Construction-ASM",
         short: "Oneida Nunez is a highly accomplished construction professional with an exemplary track record in strategic planning and leading complex, multi-billion dollar projects. She has been successfully managing large-scale teams and organizations for over 15 years with a unique and innovative strategic vision and a proven ability to execute. Oneida holds a Bachelor of Science in Civil Engineering from Loyola Marymount University, Los Angeles, CA. Since she earned her degree, she has excelled in areas such as project development, management of change (MOC), risk assessment, procurement, continuous improvement, and change management. ",
         long: [
