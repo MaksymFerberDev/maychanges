@@ -73,12 +73,22 @@ jQuery(document).ready(function() {
         name: "Carter DeMore",
         link: "https://www.linkedin.com/in/carterdemore",
         position: "Associate",
-        short: "",
+        short: "Carter DeMore, a native to California, brings an impressive background in organizational communications, marketing, and entrepreneurship to our team at Industrial Succession Group. Embarking on his professional journey with a Minor in Business Marketing at Griffith University in Australia, Carter honed his skills in business development and communication. As Vice President of the Griffith Boardriders Club, he notably tripled its membership.",
         long: [
-            "Carter DeMore, a native to California, brings an impressive background in organizational communications, marketing, and entrepreneurship to our team at Industrial Succession Group. Embarking on his professional journey with a Minor in Business Marketing at Griffith University in Australia, Carter honed his skills in business development and communication. As Vice President of the Griffith Boardriders Club, he notably tripled its membership.",
             `Advancing in his academic journey, Carter achieved a Bachelor of Arts in Organizational Communication Studies. Following graduation, he showcased his business acumen by strategically acquiring a golf company. Through adept growth strategies and meticulous adjustments to the business model, he achieved a 20% increase in profit margins, culminating in a successful exit within a two-year period. Carter's proficiency in cultivating vital relationships also led to strategic partnerships with esteemed golf courses and a prominent corporation in Southern California.`,
             `Transitioning into the role of a business broker/M&A advisor, Carter secured an impressive $33 million in listing volume within a brief 8-month period. His proficiency in devising innovative business models is shown by the strategic direction he provided to a startup, steering it towards a profitable exit.`,
             `Motivated by an unwavering dedication to excellence and continual growth, Carter is a valuable asset to our team. Leveraging his strategic vision, entrepreneurial spirit, and M&A expertise, he cultivates invaluable connections at Industrial Succession Group, contributing to our mission of preserving business legacies.`
+        ]
+    },
+    {
+        photo: "./img/harry_pershing.jpeg",
+        name: "Harry Pershing",
+        link: "https://www.linkedin.com/in/harry-pershing-3194526b/",
+        position: "Director of Operations",
+        short: "As Director of Operations, Harry is responsible for supporting our Operating Partners with operational data, one time projects and transition services post-acquisitions.",
+        long: [
+            `Prior to his MBA, Harry was an investment strategist & macroeconomist at leading investment banks, serving clients across various asset classes. He relies on his skills in financial modeling, due diligence, data analysis, and statistics to conduct research projects and provide insights.`,
+            `Harry obtained his MBA at HEC in Paris where he was the president of the Search Fund Club, where he facilitated events with investors and future entrepreneurs.`,
         ]
     },
 	];
