@@ -2502,6 +2502,7 @@ span.rdmore a {
 }
 span.rdmore {
   position: relative;
+  display: block;
 }
 span.rdmore:before {
   content: "\203A";
