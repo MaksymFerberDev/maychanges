@@ -1919,6 +1919,7 @@ a.main-btn {
     -ms-flex-align: center;
     align-items: center;
     width: 350px;
+    height: 243px;
   }
   .advisors .card:not(:last-of-type) {
     margin: 0 0 15px;
@@ -1936,6 +1937,7 @@ a.main-btn {
   .advisors .photo {
     -ms-flex-item-align: start;
     align-self: flex-start;
+    margin-bottom: 40px;
   }
   .advisors .content {
     width: 95%;
