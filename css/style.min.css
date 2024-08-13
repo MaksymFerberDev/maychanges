@@ -649,6 +649,14 @@ a.main-btn {
   line-height: 21px;
 }
 
+.modal .desc-long ul {
+  padding-left: 15px;
+}
+
+.modal .desc-long li {
+  list-style: disc;
+}
+
 .modal .desc-long p {
   margin: 20px 0 0 0;
 }
