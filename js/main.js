@@ -72,7 +72,7 @@ jQuery(document).ready(function () {
         photo: "./img/ted_riddle.jpeg",
         name: "Ted Riddle",
         link: "https://www.linkedin.com/in/ted-riddle/",
-        position: "Director of Operations",
+        position: "Operating Advisor-Metal Solutions Holdings",
         short: "Ted Riddle joined Akoya in 2021 to lead Akoya’s Industrial Manufacturing Sector..",
         long: [
             `Harry obtained his MBA at HEC in Paris where he was the president of the Search Fund Club, where he facilitated events with investors and future entrepreneurs.`,
