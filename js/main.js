@@ -71,11 +71,10 @@ jQuery(document).ready(function () {
     {
         photo: "./img/ted_riddle.jpeg",
         name: "Ted Riddle",
-        link: "https://www.linkedin.com/in/harry-pershing-3194526b/",
+        link: "https://www.linkedin.com/in/ted-riddle/",
         position: "Director of Operations",
         short: "Ted Riddle joined Akoya in 2021 to lead Akoya’s Industrial Manufacturing Sector..",
         long: [
-            `Ted is a senior executive with more than 35 years of experience in the metals production, distribution, fabrication, and finishing segment. He has a proven track record of partnering with a variety of stakeholders, including boards of directors, investors, and lenders.`,
             `Harry obtained his MBA at HEC in Paris where he was the president of the Search Fund Club, where he facilitated events with investors and future entrepreneurs.`,
             `Previously, Ted served as CEO of Arch Acquisition Holdings (portfolio company of H.I.G. Capital) where he led the turnaround of the groups’ aluminum mills and subsequent sale process to strategic buyers.`,
             `He also served for over a decade with Ryerson as Vice President and General Manager, with P&L responsibility for 24 plants. During that period, Ted served on the executive team that took the company public, helped scale the company from $2B to $6B+, and made numerous operational improvements through Lean implementation.`,
