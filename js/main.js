@@ -73,7 +73,7 @@ jQuery(document).ready(function () {
         name: "Ted Riddle",
         link: "https://www.linkedin.com/in/ted-riddle/",
         position: "Operating Advisor-Metal Solutions Holdings",
-        short: "Ted Riddle joined Akoya in 2021 to lead Akoya’s Industrial Manufacturing Sector..",
+        short: "Ted is a senior executive with more than 35 years of experience in the metals production, distribution, fabrication, and finishing segment. He has a proven track record of partnering with a variety of stakeholders, including boards of directors, investors, and lenders.",
         long: [
             `Harry obtained his MBA at HEC in Paris where he was the president of the Search Fund Club, where he facilitated events with investors and future entrepreneurs.`,
             `Previously, Ted served as CEO of Arch Acquisition Holdings (portfolio company of H.I.G. Capital) where he led the turnaround of the groups’ aluminum mills and subsequent sale process to strategic buyers.`,
