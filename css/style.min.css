@@ -1679,6 +1679,8 @@ a.main-btn {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+  row-gap: 65px;
+  column-gap: 20px;
 }
 
 .advisors .card-title {
@@ -1937,6 +1939,7 @@ a.main-btn {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    row-gap: 0;
   }
   .advisors .card-title {
     font-size: 25px;
