@@ -1,13 +1,6 @@
 .page {
-  align-items: center;
-  justify-items: center;
-  min-height: 100svh;
-  gap: 64px;
-}
-
-.main {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  grid-row-start: 2;
+  min-height: 100svh;
+  gap: 100px;
 }
