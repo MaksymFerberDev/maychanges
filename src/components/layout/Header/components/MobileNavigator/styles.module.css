@@ -1,0 +1,44 @@
+.main {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px 16px 16px;
+  transition: all 0.5s;
+  z-index: 9;
+}
+
+.main.open {
+  top: 0;
+  transition: all 0.5s;
+}
+
+.item p {
+  font-size: 13px;
+  line-height: 22px;
+  color: #8f8f8f;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+  text-decoration: none;
+  width: max-content;
+}
+
+.item:hover, .item.active {
+  color: #080808;
+}
+
+.item.active p::after {
+  content: '';
+  position: absolute;
+  top: 85%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #8c0000;
+}
