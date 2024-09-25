@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export const Hero = () => {
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <div className={styles.main}>
         <h1 className={styles.title}>
           Legacies <br/><span>Continued</span>
@@ -26,6 +26,6 @@ export const Hero = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 };

@@ -11,7 +11,7 @@ export const Video = () => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <iframe
         className={styles.video}
         src={`https://player.vimeo.com/video/487010306${isPlaying ? '?autoplay=1' : ''}`}
@@ -26,6 +26,6 @@ export const Video = () => {
           &nbsp;
         </div>
       )}
-    </div>
+    </section>
   );
 };
