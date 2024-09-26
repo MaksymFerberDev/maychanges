@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const Team = () => {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id='team'>
       <h1 className={styles.title}>Team</h1>
 
       <div className={styles.content}>

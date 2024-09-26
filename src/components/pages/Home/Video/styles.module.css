@@ -34,3 +34,18 @@
   background-size: cover;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 885px;
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: calc(100% - 32px);
+    height: calc((100vw - 32px)* 0.5625);
+    margin: 0 16px;
+  }
+}

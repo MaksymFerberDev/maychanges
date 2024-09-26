@@ -1,4 +1,6 @@
-export const attributesData = [
+import { TAttributesData } from "./interfaces";
+
+export const attributesData: TAttributesData[] = [
   {
     id: 1,
     text: 'Manufacture components due to contracts and the need for replacement parts.',

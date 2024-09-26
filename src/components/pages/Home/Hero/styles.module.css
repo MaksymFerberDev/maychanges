@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 1170px;
+  width: 100%;
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -116,4 +116,71 @@
 
 .missionDescription span {
   color: #8c0000;
+}
+
+@media screen and (max-width: 1200px) {
+  .main, .content {
+    max-width: 885px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    height: 474px;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 150%;
+  }
+
+  .main {
+    gap: 30px;
+    max-width: 580px;
+  }
+
+  .content {
+    max-width: calc(100% - 32px);
+    padding: 12px 24px;
+    margin: 0 16px;
+  }
+
+  .missionTitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-bottom: 200px;
+  }
+
+  .main {
+    gap: 20px;
+    max-width: 100%;
+    width: calc(100% - 32px);
+  }
+
+  .content {
+    margin: 0;
+    border-radius: 0;
+    max-width: 100%;
+
+  }
+
+  .mission {
+    transform: translate(0, 0);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    margin-bottom: 280px;
+  }
 }

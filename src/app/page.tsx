@@ -1,4 +1,4 @@
-import { Hero, NumbersCard, Team, Video, Why } from "@/components";
+import { Attributes, Hero, NumbersCard, Team, Video, Why } from "@/components";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       <Why />
       <Team />
       <NumbersCard />
+      <Attributes />
     </div>
   );
 }
