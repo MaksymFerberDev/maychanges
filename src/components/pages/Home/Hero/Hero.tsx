@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import styles from './styles.module.css';
+import { Dispatch, SetStateAction } from 'react';
 
-export const Hero = () => {
+interface TProps {
+  setIsPlaying: Dispatch<SetStateAction<boolean>>;
+}
+
+export const Hero = ({ setIsPlaying }: TProps) => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.main}>
@@ -9,7 +14,7 @@ export const Hero = () => {
           Legacies <br/><span>Continued</span>
         </h1>
         <p className={styles.description}>We help business owners pass on their legacies to someone who isn&apos;t part of a Private Equity fund or Competitor.</p>
-        <Link href='#play-icon'>
+        <Link href='#play-icon' onClick={() => setIsPlaying(true)}>
           <button className={styles.mainBtn}>Watch our video</button>
         </Link>
       </div>

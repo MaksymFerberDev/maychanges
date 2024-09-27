@@ -1,6 +1,7 @@
 .wrapper {
   width: 100%;
-  margin: 30px auto 0;
+  margin: 0 auto;
+  padding-top: 46px;
   max-width: 1170px;
   display: flex;
   justify-content: space-between;
@@ -97,6 +98,15 @@
   .title {
     font-size: 30px;
     margin: auto 0;
+  }
+
+  .wrapper.animate .title,
+  .wrapper.animate .animation_1,
+  .wrapper.animate .animation_2,
+  .wrapper.animate .animation_3,
+  .wrapper.animate .animation_4,
+  .wrapper.animate .animation_5 {
+    animation: none;
   }
 }
 

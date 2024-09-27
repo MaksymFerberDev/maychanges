@@ -83,6 +83,10 @@
   .content {
     opacity: 1;
   }
+
+  .content.animate {
+    animation: none;
+  }
 }
 
 @media screen and (max-width: 900px) {

@@ -1,17 +1,21 @@
 'use client';
 
-import { useState } from 'react';
+import { Dispatch, SetStateAction } from 'react';
 import styles from './styles.module.css';
 
-export const Video = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+interface TProps {
+  isPlaying: boolean;
+  setIsPlaying: Dispatch<SetStateAction<boolean>>;
+}
+
+export const Video = ({ isPlaying, setIsPlaying }: TProps) => {
 
   const handlePlayClick = () => {
     setIsPlaying(true);
   };
 
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="play-icon">
       <iframe
         className={styles.video}
         src={`https://player.vimeo.com/video/487010306${isPlaying ? '?autoplay=1' : ''}`}
@@ -22,7 +26,7 @@ export const Video = () => {
         allowFullScreen
       ></iframe>
       {!isPlaying && (
-        <div id="play-icon" className={styles.play} onClick={handlePlayClick}>
+        <div className={styles.play} onClick={handlePlayClick}>
           &nbsp;
         </div>
       )}

@@ -70,6 +70,11 @@
   align-items: center;
   border: none;
   background: none;
+  transition: all 0.2s;
+}
+
+.btnLink:hover {
+  gap: 8px;
 }
 
 .linkedin {
