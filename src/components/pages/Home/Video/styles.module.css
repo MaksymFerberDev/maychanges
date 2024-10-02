@@ -45,7 +45,7 @@
 @media screen and (max-width: 900px) {
   .wrapper {
     width: calc(100% - 32px);
-    height: calc((100vw - 32px)* 0.5625);
+    height: calc((100vw - 32px) * 0.5625);
     margin: 0 16px;
   }
 }

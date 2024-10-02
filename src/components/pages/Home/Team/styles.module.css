@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-
 }
 
 .title {
@@ -49,10 +48,10 @@
 .itemTitle {
   font-size: 30px;
   font-family: var(--font-montserrat-bold);
-  color: #080808;
 }
 
-.itemPosition, .btnLink {
+.itemPosition,
+.btnLink {
   font-family: var(--font-montserrat-bold);
   color: #8c0000;
 }

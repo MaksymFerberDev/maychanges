@@ -14,21 +14,21 @@ export const Team = () => {
 
   useEffect(() => {
     if (modalItem) {
-      document.ontouchmove = (e) => e.preventDefault()
-      document.body.style.overflow = 'hidden'
+      document.ontouchmove = (e) => e.preventDefault();
+      document.body.style.overflow = 'hidden';
     } else {
-      document.ontouchmove = () => true
-      document.body.style.overflow = 'auto'
+      document.ontouchmove = () => true;
+      document.body.style.overflow = 'auto';
     }
-  }, [modalItem])
+  }, [modalItem]);
 
   const handleOpenModal = (item: TTeamData) => {
     setModalItem(item);
-  }
+  };
 
   return (
     <>
-      <section className={styles.wrapper} id='team'>
+      <section className={styles.wrapper} id="team">
         <h1 className={styles.title}>Team</h1>
 
         <div className={styles.content}>
@@ -55,9 +55,7 @@ export const Team = () => {
         </div>
       </section>
 
-      {modalItem && (
-        <Modal modalItem={modalItem} setModalItem={setModalItem} />
-      )}
+      {modalItem && <Modal modalItem={modalItem} setModalItem={setModalItem} />}
     </>
-  )
+  );
 };

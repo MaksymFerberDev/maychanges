@@ -9,7 +9,6 @@ interface TProps {
 }
 
 export const Video = ({ isPlaying, setIsPlaying }: TProps) => {
-
   const handlePlayClick = () => {
     setIsPlaying(true);
   };

@@ -14,4 +14,4 @@ type TteamModalData = {
     title: string;
     items: string[];
   };
-}
+};

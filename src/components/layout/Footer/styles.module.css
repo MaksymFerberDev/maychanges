@@ -40,6 +40,7 @@
   font-weight: 700;
   font-family: var(--font-montserrat-bold);
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .navigator {
@@ -48,13 +49,14 @@
   justify-content: space-between;
 }
 
-.item {
+.item, .item p {
   display: flex;
   gap: 16px;
   align-items: center;
+  color: #fff;
 }
 
-a.item:hover {
+a.item p:hover {
   color: #8c0000;
 }
 

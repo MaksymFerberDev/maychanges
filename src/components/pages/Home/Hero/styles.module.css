@@ -9,7 +9,7 @@
 }
 
 .wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -43,7 +43,7 @@
 }
 
 .title::after {
-  content: "";
+  content: '';
   display: block;
   width: 25px;
   height: 4px;
@@ -80,7 +80,6 @@
   top: 100%;
   transform: translate(0, -50%);
   width: 100%;
-  
 }
 
 .content {
@@ -119,7 +118,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .main, .content {
+  .main,
+  .content {
     max-width: 885px;
   }
 
@@ -175,7 +175,6 @@
     margin: 0;
     border-radius: 0;
     max-width: 100%;
-
   }
 
   .mission {

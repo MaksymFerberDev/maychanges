@@ -20,7 +20,7 @@ export const Why = () => {
           }
         });
       },
-      { threshold: 0.8 }
+      { threshold: 0.8 },
     );
 
     const currentSectionRef = sectionRef.current;
@@ -37,7 +37,7 @@ export const Why = () => {
   }, [isAnimated]);
 
   return (
-    <section className={clsx(styles.wrapper, isAnimated && styles.animate)} id='why' ref={sectionRef}>
+    <section className={clsx(styles.wrapper, isAnimated && styles.animate)} id="why" ref={sectionRef}>
       <div className={styles.title}>
         <span>Why</span> Industrials & Manufacturing?
       </div>
@@ -53,5 +53,5 @@ export const Why = () => {
         </div>
       ))}
     </section>
-  )
+  );
 };

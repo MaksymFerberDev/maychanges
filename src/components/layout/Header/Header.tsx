@@ -13,6 +13,17 @@ export const Header: React.FC = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const pathname = usePathname();
 
+  const scrollHandler = (item: string) => {
+    if (pathname === "/") {
+      const element = document.getElementById(item.toLowerCase());
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.location.href = `/#${item.toLowerCase()}`;
+    }
+  };
+
   return (
     <>
       <header className={styles.main}>
@@ -28,16 +39,31 @@ export const Header: React.FC = () => {
 
           <nav className={styles.navigator}>
             {Links.map((link) => (
-              <Link
-                key={link.id}
-                href={link.url}
-                className={clsx(
-                  styles.item,
-                  pathname === link.url && styles.active
+              <>
+                {link.url ? (
+                  <Link
+                    key={link.id}
+                    href={link.url}
+                    className={clsx(
+                      styles.item,
+                      pathname === link.url && styles.active
+                    )}
+                  >
+                    {link.name}
+                  </Link>
+                ) : (
+                  <div
+                    key={link.id}
+                    className={clsx(
+                      styles.item,
+                      pathname === link.url && styles.active
+                    )}
+                    onClick={() => scrollHandler(link.scroll)}
+                  >
+                    {link.scroll}
+                  </div>
                 )}
-              >
-                {link.name}
-              </Link>
+              </>
             ))}
           </nav>
 

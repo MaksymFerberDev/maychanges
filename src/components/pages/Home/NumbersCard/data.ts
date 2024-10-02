@@ -1,4 +1,4 @@
-import { TNumbersCardData } from "./interfaces";
+import { TNumbersCardData } from './interfaces';
 
 export const numbersCardData: TNumbersCardData[] = [
   {

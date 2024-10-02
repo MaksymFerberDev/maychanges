@@ -1,4 +1,4 @@
-import { TAttributesData } from "./interfaces";
+import { TAttributesData } from './interfaces';
 
 export const attributesData: TAttributesData[] = [
   {
@@ -24,5 +24,5 @@ export const attributesData: TAttributesData[] = [
   {
     id: 6,
     text: 'Software for the industrial. Open to SaaS and similar products that help facilities operate and do business.',
-  }
+  },
 ];

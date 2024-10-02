@@ -65,7 +65,6 @@
 
 .name {
   font-size: 35px;
-  color: #080808;
   font-family: var(--font-montserrat-bold);
   line-height: 40px;
 }
@@ -98,7 +97,6 @@
 }
 
 .short_desc {
-  color: #080808;
   font-size: 16px;
   font-family: var(--font-montserrat-semibold);
 }

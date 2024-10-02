@@ -12,5 +12,5 @@ export const NumbersCard = () => {
         </div>
       ))}
     </div>
-  )
+  );
 };
