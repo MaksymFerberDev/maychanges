@@ -25,6 +25,7 @@
 .title {
   font-size: 56px;
   font-family: var(--font-montserrat-extrabold);
+  color: #fff;
 }
 
 .divider {
@@ -36,6 +37,7 @@
 .description {
   font-family: var(--font-montserrat-bold);
   text-align: center;
+  color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
