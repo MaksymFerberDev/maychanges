@@ -56,8 +56,11 @@
   color: #fff;
 }
 
-a.item p:hover {
+a.item:hover,
+a.item p:hover,
+.navigator p:hover {
   color: #8c0000;
+  cursor: pointer;
 }
 
 .rights {

@@ -6,12 +6,23 @@ import styles from './styles.module.css';
 import Image from "next/image";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MobileNavigator } from "./components";
+import React from "react";
 
 export const Header: React.FC = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    if (isMobileNavOpen) {
+      document.ontouchmove = (e) => e.preventDefault();
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.ontouchmove = () => true;
+      document.body.style.overflow = 'auto';
+    }
+  }, [isMobileNavOpen]);
 
   const scrollHandler = (item: string) => {
     if (pathname === "/") {
@@ -39,10 +50,9 @@ export const Header: React.FC = () => {
 
           <nav className={styles.navigator}>
             {Links.map((link) => (
-              <>
+              <React.Fragment key={link.id}>
                 {link.url ? (
                   <Link
-                    key={link.id}
                     href={link.url}
                     className={clsx(
                       styles.item,
@@ -53,7 +63,6 @@ export const Header: React.FC = () => {
                   </Link>
                 ) : (
                   <div
-                    key={link.id}
                     className={clsx(
                       styles.item,
                       pathname === link.url && styles.active
@@ -63,7 +72,7 @@ export const Header: React.FC = () => {
                     {link.scroll}
                   </div>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </nav>
 

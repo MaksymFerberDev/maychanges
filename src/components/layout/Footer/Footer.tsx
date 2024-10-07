@@ -1,11 +1,27 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './styles.module.css';
 import { Links } from '../Header/data';
 import Link from 'next/link';
 import { Contact } from './data';
+import { usePathname } from 'next/navigation';
+import React from 'react';
 
 export const Footer = () => {
   const date = new Date();
+  const pathname = usePathname();
+
+  const scrollHandler = (item: string) => {
+    if (pathname === "/") {
+      const element = document.getElementById(item.toLowerCase());
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.location.href = `/#${item.toLowerCase()}`;
+    }
+  };
 
   return (
     <footer className={styles.main}>
@@ -23,10 +39,9 @@ export const Footer = () => {
             <div className={styles.contactLink}>
               <h5 className={styles.title}>Contact info:</h5>
               {Contact.map((contact) => (
-                <>
+                <React.Fragment key={contact.id}>
                   {contact.url ? (
                     <Link
-                      key={contact.id}
                       href={contact.url}
                       className={styles.item}
                     >
@@ -40,7 +55,6 @@ export const Footer = () => {
                     </Link>
                   ) : (
                     <div
-                      key={contact.id}
                       className={styles.item}
                     >
                       <Image
@@ -52,18 +66,28 @@ export const Footer = () => {
                       <p>{contact.name}</p>
                     </div>
                   )}
-                </>
+                </React.Fragment>
               ))}
             </div>
             <div className={styles.navigator}>
               {Links.map((link) => (
-                <Link
-                  key={link.id}
-                  href={link.url}
-                  className={styles.item}
-                >
-                  {link.name}
-                </Link>
+                <React.Fragment key={link.id}>
+                  {link.url ? (
+                    <Link
+                      href={link.url}
+                      className={styles.item}
+                    >
+                      {link.name}
+                    </Link>
+                  ) : (
+                    <div
+                      className={styles.item}
+                      onClick={() => scrollHandler(link.scroll)}
+                    >
+                      <p>{link.scroll}</p>
+                    </div>
+                  )}
+                </React.Fragment>
               ))}
             </div>
           </div>

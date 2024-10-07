@@ -78,3 +78,47 @@
 .podcast iframe {
   border: none;
 }
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    gap: 80px;
+    max-width: 100%;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .content, .image, .text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tweet {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    gap: 50px;
+    padding: 0 16px;
+  }
+
+  .content {
+    gap: 12px;
+  }
+
+  .item {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

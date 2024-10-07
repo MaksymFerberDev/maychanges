@@ -18,6 +18,10 @@
   transition: all 0.5s;
 }
 
+.item {
+  width: fit-content;
+}
+
 .item p {
   font-size: 13px;
   line-height: 22px;
