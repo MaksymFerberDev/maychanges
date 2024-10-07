@@ -53,10 +53,17 @@
 }
 
 .item {
+  position: relative;
   width: calc((100% / 3) - (60px / 3));
   display: flex;
   flex-direction: column;
   gap: 16px;
+  top: 0;
+  transition: all 0.2s;
+}
+
+.item:hover {
+  top: -7px;
 }
 
 .itemTitle {

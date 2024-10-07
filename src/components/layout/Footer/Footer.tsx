@@ -2,9 +2,8 @@
 
 import Image from 'next/image';
 import styles from './styles.module.css';
-import { Links } from '../Header/data';
 import Link from 'next/link';
-import { Contact } from './data';
+import { Contact, Links } from './data';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
@@ -28,12 +27,14 @@ export const Footer = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.right}>
-            <Image
-              src="/assets/pictures/industrial_logo_footer.jpg"
-              alt="logo"
-              width={236}
-              height={71}
-            />
+            <Link href='/'>
+              <Image
+                src="/assets/pictures/industrial_logo_footer.jpg"
+                alt="logo"
+                width={236}
+                height={71}
+              />
+            </Link>
           </div>
           <div className={styles.left}>
             <div className={styles.contactLink}>
@@ -84,7 +85,7 @@ export const Footer = () => {
                       className={styles.item}
                       onClick={() => scrollHandler(link.scroll)}
                     >
-                      <p>{link.scroll}</p>
+                      <p>{link.name}</p>
                     </div>
                   )}
                 </React.Fragment>

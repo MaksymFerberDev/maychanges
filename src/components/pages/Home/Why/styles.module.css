@@ -2,12 +2,14 @@
   width: 100%;
   margin: 0 auto;
   padding-top: 46px;
-  max-width: 1170px;
+  padding: 40px;
+  max-width: calc(1170px + 80px);
   display: flex;
   justify-content: space-between;
   gap: 60px 30px;
   flex-wrap: wrap;
   opacity: 0;
+  overflow: hidden;
 }
 
 .title {
@@ -86,9 +88,18 @@
   animation: fadeOutLeft 1s forwards;
 }
 
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    padding: 40px 15px;
+    max-width: calc(1170px + 30px);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .wrapper {
     max-width: 885px;
+    padding: 50px 0 0;
+    overflow: visible;
   }
 
   .title, .item {
@@ -108,6 +119,13 @@
   .wrapper.animate .animation_5 {
     animation: none;
   }
+
+  .wrapper .title,
+  .wrapper.animate .title,
+  .wrapper .item,
+  .wrapper.animate .item {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -124,13 +142,6 @@
 
   .title, .item {
     max-width: 100%;
-  }
-
-  .wrapper .title,
-  .wrapper.animate .title,
-  .wrapper .item,
-  .wrapper.animate .item {
-    opacity: 1;
   }
 }
 

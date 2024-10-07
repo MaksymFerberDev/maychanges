@@ -1,18 +1,19 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { Links } from "./data";
+import { useState, useRef, useEffect } from 'react';
+import { MobileNavigator } from './components';
 import styles from './styles.module.css';
-import Image from "next/image";
-import clsx from "clsx";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import { MobileNavigator } from "./components";
-import React from "react";
+import clsx from 'clsx';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { Links } from './data';
+import React from 'react';
 
 export const Header: React.FC = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const pathname = usePathname();
+  const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (isMobileNavOpen) {
@@ -25,48 +26,40 @@ export const Header: React.FC = () => {
   }, [isMobileNavOpen]);
 
   const scrollHandler = (item: string) => {
-    if (pathname === "/") {
+    if (pathname === '/') {
       const element = document.getElementById(item.toLowerCase());
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
       window.location.href = `/#${item.toLowerCase()}`;
     }
   };
 
+  const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsMobileNavOpen((prev) => !prev);
+  };
+
   return (
     <>
       <header className={styles.main}>
         <div className={styles.content}>
-          <Link href='/' className={styles.logo}>
-            <Image
-              src="/assets/pictures/industrial_logo.jpg"
-              alt="logo"
-              width={168}
-              height={40}
-            />
+          <Link href="/" className={styles.logo}>
+            <Image src="/assets/pictures/industrial_logo.jpg" alt="logo" width={168} height={40} />
           </Link>
 
           <nav className={styles.navigator}>
             {Links.map((link) => (
               <React.Fragment key={link.id}>
                 {link.url ? (
-                  <Link
-                    href={link.url}
-                    className={clsx(
-                      styles.item,
-                      pathname === link.url && styles.active
-                    )}
-                  >
+                  <Link href={link.url} className={clsx(styles.item, pathname === link.url && styles.active)}>
                     {link.name}
                   </Link>
                 ) : (
                   <div
-                    className={clsx(
-                      styles.item,
-                      pathname === link.url && styles.active
-                    )}
+                    className={clsx(styles.item, pathname === link.url && styles.active)}
                     onClick={() => scrollHandler(link.scroll)}
                   >
                     {link.scroll}
@@ -78,7 +71,8 @@ export const Header: React.FC = () => {
 
           <div
             className={clsx(styles.mobileNav, isMobileNavOpen && styles.open)}
-            onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}
+            ref={toggleRef} // Attach the ref here
+            onClick={handleClick}
           >
             <span></span>
             <span></span>
@@ -91,7 +85,7 @@ export const Header: React.FC = () => {
         </div>
       </header>
 
-      <MobileNavigator isNav={isMobileNavOpen} setNav={setIsMobileNavOpen} />
+      <MobileNavigator isNav={isMobileNavOpen} setNav={setIsMobileNavOpen} toggleRef={toggleRef} />
     </>
   );
 };

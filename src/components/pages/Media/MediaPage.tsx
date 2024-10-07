@@ -16,7 +16,7 @@ export const MediaPage = () => {
             <div className={styles.text}>
               <p>{item.text}</p>
               {item.readMore && (
-                <Link href={item.readMore} className={styles.readMore}>
+                <Link href={item.readMore} target='_blank' className={styles.readMore}>
                   Read more
                   <Image
                     src="/assets/icons/shevron.svg"
