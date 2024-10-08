@@ -9,11 +9,12 @@ import Link from 'next/link';
 
 interface TProps {
   modalItem: TTeamData;
+  toggleRef: RefObject<HTMLDivElement>;
   setModalItem: Dispatch<SetStateAction<TTeamData | null>>;
 }
 
-export const Modal = ({ modalItem, setModalItem }: TProps) => {
-  const modalRef = useClickOutside(() => setModalItem(null)) as RefObject<HTMLDivElement>;
+export const Modal = ({ modalItem, toggleRef, setModalItem }: TProps) => {
+  const modalRef = useClickOutside(() => setModalItem(null), toggleRef) as RefObject<HTMLDivElement>;
 
   return (
     <div className={styles.wrapper}>

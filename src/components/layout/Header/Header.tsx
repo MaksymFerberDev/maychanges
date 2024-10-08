@@ -71,7 +71,7 @@ export const Header: React.FC = () => {
 
           <div
             className={clsx(styles.mobileNav, isMobileNavOpen && styles.open)}
-            ref={toggleRef} // Attach the ref here
+            ref={toggleRef}
             onClick={handleClick}
           >
             <span></span>

@@ -4,13 +4,14 @@ import Image from 'next/image';
 import { teamData } from './data';
 import styles from './styles.module.css';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Modal } from '@/components/UI';
 import React from 'react';
 import { TTeamData } from './interfaces';
 
 export const Team = () => {
   const [modalItem, setModalItem] = useState<TTeamData | null>(null);
+  const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (modalItem) {
@@ -55,7 +56,7 @@ export const Team = () => {
         </div>
       </section>
 
-      {modalItem && <Modal modalItem={modalItem} setModalItem={setModalItem} />}
+      {modalItem && <Modal modalItem={modalItem} toggleRef={toggleRef} setModalItem={setModalItem} />}
     </>
   );
 };
