@@ -14,13 +14,25 @@ export const Team = () => {
   const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (modalItem) {
+    const preventScroll = () => {
       document.ontouchmove = (e) => e.preventDefault();
       document.body.style.overflow = 'hidden';
-    } else {
+    };
+  
+    const allowScroll = () => {
       document.ontouchmove = () => true;
       document.body.style.overflow = 'auto';
-    }
+    };
+  
+    const timeout = setTimeout(() => {
+      if (modalItem) {
+        preventScroll();
+      } else {
+        allowScroll();
+      }
+    }, 100);
+  
+    return () => clearTimeout(timeout);
   }, [modalItem]);
 
   const handleOpenModal = (item: TTeamData) => {

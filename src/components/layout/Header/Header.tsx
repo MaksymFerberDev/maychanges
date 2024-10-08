@@ -16,13 +16,25 @@ export const Header: React.FC = () => {
   const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (isMobileNavOpen) {
+    const preventScroll = () => {
       document.ontouchmove = (e) => e.preventDefault();
       document.body.style.overflow = 'hidden';
-    } else {
+    };
+  
+    const allowScroll = () => {
       document.ontouchmove = () => true;
       document.body.style.overflow = 'auto';
-    }
+    };
+  
+    const timeout = setTimeout(() => {
+      if (isMobileNavOpen) {
+        preventScroll();
+      } else {
+        allowScroll();
+      }
+    }, 100);
+  
+    return () => clearTimeout(timeout);
   }, [isMobileNavOpen]);
 
   const scrollHandler = (item: string) => {
