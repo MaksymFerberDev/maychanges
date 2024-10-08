@@ -16,32 +16,24 @@ export const Header: React.FC = () => {
   const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const preventScroll = () => {
-      document.ontouchmove = (e) => e.preventDefault();
-      document.body.style.overflow = 'hidden';
+    if (isMobileNavOpen) {
+      document.body.classList.add('body-scroll-lock');
+    } else {
+      document.body.classList.remove('body-scroll-lock');
+    }
+
+    return () => {
+      document.body.classList.remove('body-scroll-lock');
     };
-  
-    const allowScroll = () => {
-      document.ontouchmove = () => true;
-      document.body.style.overflow = 'auto';
-    };
-  
-    const timeout = setTimeout(() => {
-      if (isMobileNavOpen) {
-        preventScroll();
-      } else {
-        allowScroll();
-      }
-    }, 100);
-  
-    return () => clearTimeout(timeout);
   }, [isMobileNavOpen]);
 
   const scrollHandler = (item: string) => {
     if (pathname === '/') {
       const element = document.getElementById(item.toLowerCase());
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
       }
     } else {
       window.location.href = `/#${item.toLowerCase()}`;
@@ -81,11 +73,7 @@ export const Header: React.FC = () => {
             ))}
           </nav>
 
-          <div
-            className={clsx(styles.mobileNav, isMobileNavOpen && styles.open)}
-            ref={toggleRef}
-            onClick={handleClick}
-          >
+          <div className={clsx(styles.mobileNav, isMobileNavOpen && styles.open)} ref={toggleRef} onClick={handleClick}>
             <span></span>
             <span></span>
             <span></span>

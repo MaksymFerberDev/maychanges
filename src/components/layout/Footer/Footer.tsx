@@ -15,7 +15,9 @@ export const Footer = () => {
     if (pathname === "/") {
       const element = document.getElementById(item.toLowerCase());
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
       }
     } else {
       window.location.href = `/#${item.toLowerCase()}`;

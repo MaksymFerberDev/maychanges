@@ -32,3 +32,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: #080808;
   line-height: 150%;
 }
+
+.body-scroll-lock {
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
