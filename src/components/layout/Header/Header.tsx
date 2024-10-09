@@ -17,6 +17,7 @@ export const Header: React.FC = () => {
 
   useEffect(() => {
     if (isMobileNavOpen) {
+      document.body.style.top = 'auto';
       document.body.classList.add('body-scroll-lock');
     } else {
       document.body.classList.remove('body-scroll-lock');
@@ -66,7 +67,7 @@ export const Header: React.FC = () => {
                     className={clsx(styles.item, pathname === link.url && styles.active)}
                     onClick={() => scrollHandler(link.scroll)}
                   >
-                    {link.scroll}
+                    {link.name}
                   </div>
                 )}
               </React.Fragment>
