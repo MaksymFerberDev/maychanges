@@ -14,9 +14,12 @@ export const Team = () => {
   const toggleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const yOffset = window.pageYOffset;
     if (modalItem) {
+      document.body.style.top = `-${yOffset}px`;
       document.body.classList.add('body-scroll-lock');
     } else {
+      window.scrollTo(0, parseInt(document.body.style.top || '0') * -1);
       document.body.classList.remove('body-scroll-lock');
     }
 
