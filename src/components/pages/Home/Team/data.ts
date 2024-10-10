@@ -3,7 +3,7 @@ import { TTeamData } from './interfaces';
 export const teamData: TTeamData[] = [
   {
     id: 1,
-    image: '/assets/pictures/home/team/juless.jpg',
+    image: '/assets/pictures/home/team/juless.webp',
     name: 'Jules Brenner',
     position: 'Founder/CEO',
     linkedin: 'https://www.linkedin.com/in/jules-brenner/',
@@ -20,7 +20,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 2,
-    image: '/assets/pictures/home/team/davella.png',
+    image: '/assets/pictures/home/team/davella.webp',
     name: 'Ron DaVella',
     position: 'CFO',
     linkedin: 'https://www.linkedin.com/in/ron-davella-a9893a3/',
@@ -36,7 +36,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 3,
-    image: '/assets/pictures/home/team/pettibone.jpg',
+    image: '/assets/pictures/home/team/pettibone.webp',
     name: 'Kenneth Pettibone',
     position: 'Director of Finance and M&A',
     linkedin: 'https://www.linkedin.com/in/ted-riddle/',
@@ -52,7 +52,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 4,
-    image: '/assets/pictures/home/team/riddle.jpeg',
+    image: '/assets/pictures/home/team/riddle.webp',
     name: 'Ted Riddle',
     position: 'Operating Advisor-Metal Solutions Holdings',
     linkedin: 'https://www.linkedin.com/in/ted-riddle/',
@@ -78,7 +78,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 5,
-    image: '/assets/pictures/home/team/moser.jpg',
+    image: '/assets/pictures/home/team/moser.webp',
     name: 'Mike Moser',
     position: 'COO of Pen Manufacturing',
     linkedin: 'https://www.linkedin.com/in/mike-moser-a96142b',
@@ -94,7 +94,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 6,
-    image: '/assets/pictures/home/team/nunez.png',
+    image: '/assets/pictures/home/team/nunez.webp',
     name: 'Oneida Nunez',
     position: 'Vice President of Construction-ASM',
     linkedin: 'https://www.linkedin.com/in/oneida-nunez-63216077',
@@ -112,7 +112,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 7,
-    image: '/assets/pictures/home/team/rosati.jpeg',
+    image: '/assets/pictures/home/team/rosati.webp',
     name: 'Sam Rosati',
     position: 'Strategic Investor-Advisor',
     linkedin: 'http://linkedin.com/in/sam-rosati-68787a8',
@@ -127,7 +127,7 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 8,
-    image: '/assets/pictures/home/team/odmark.jpeg',
+    image: '/assets/pictures/home/team/odmark.webp',
     name: 'Eric Odmark',
     position: 'Strategic Investor-Advisor',
     linkedin: 'https://www.linkedin.com/in/ericodmark/',
