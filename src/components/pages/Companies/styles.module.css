@@ -1,0 +1,156 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 64px auto 80px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 84px;
+  font-family: var(--font-montserrat-semibold);
+  text-align: center;
+}
+
+.title::after {
+  display: inline-block;
+  border-bottom: 4px solid #8c0000;
+  content: "";
+  width: 45px;
+  transform: translateY(35px) translateX(-135px);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.content {
+  display: flex;
+  gap: 128px;
+}
+
+.text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative; 
+}
+
+.text p {
+  color: #080808ad;
+  font-size: 14px;
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: underline;
+  color: #8c0000;
+  width: fit-content;
+}
+
+.vector {
+  position: absolute;
+  right: -100px;
+  top: 50px;
+}
+
+.platforms {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 40%;
+}
+
+.platformsTitle {
+  font-size: 28px;
+  font-family: var(--font-montserrat-semibold);
+}
+
+.whitePlatform,
+.blackPlatform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #f3f3f3;
+  padding: 0 16px;
+}
+
+.blackPlatform {
+  background-color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .vector {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .text, .platforms {
+    width: 100%;
+    max-width: 850px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .title::after {
+    position: static;
+    transform: none;
+  }
+
+  .wrapper {
+    padding: 0 24px;
+  }
+
+  .text, .platforms {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 64px;
+  }
+
+  .content {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .whitePlatform,
+  .blackPlatform {
+    height: 52px;
+    width: auto;
+  }
+
+  .whitePlatform img:first-child,
+  .blackPlatform img:first-child {
+    height: 48px;
+    width: auto;
+  }
+}

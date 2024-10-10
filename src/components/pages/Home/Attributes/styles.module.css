@@ -1,0 +1,146 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto 100px;
+}
+
+.business,
+.item {
+  box-shadow: 0 15px 30px rgb(32 44 51 / 10%);
+  border-radius: 7px;
+  background: #fff;
+  padding: 32px;
+}
+
+.business {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: var(--font-montserrat-semibold);
+  min-width: 250px;
+  border-right: 2px solid #e3e3e3;
+}
+
+.title span {
+  color: #8c0000;
+  font-family: var(--font-montserrat-extrabold);
+}
+
+.mainDescription,
+.itemDescription {
+  line-height: 24px;
+  font-family: var(--font-montserrat-semibold);
+  color: #8f8f8f;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  opacity: 0;
+}
+
+.content.animate {
+  animation: fadeOutBottom 1s forwards;
+}
+
+.item {
+  position: relative;
+  width: calc((100% / 3) - (60px / 3));
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  top: 0;
+  transition: all 0.2s;
+}
+
+.item:hover {
+  top: -7px;
+}
+
+.itemTitle {
+  font-size: 40px;
+  line-height: 100%;
+  font-family: var(--font-montserrat-extrabold);
+  color: #8c0000;
+  position: relative;
+}
+
+.itemTitle::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: #8c0000;
+  top: 35px;
+  left: 72px;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 885px;
+  }
+
+  .content {
+    opacity: 1;
+  }
+
+  .content.animate {
+    animation: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0 16px 100px;
+    margin: 0;
+  }
+
+  .item {
+    width: calc(50% - 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 0 auto 50px;
+  }
+
+  .business {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .title {
+    font-size: 32px;
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    width: 100%;
+  }
+}
+
+@keyframes fadeOutBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
