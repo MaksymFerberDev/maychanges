@@ -18,7 +18,7 @@ export const Team = () => {
     if (modalItem) {
       document.body.style.top = `-${yOffset}px`;
       document.body.classList.add('body-scroll-lock');
-    } else {
+    } else if (!modalItem && document.body.style.top) {
       window.scrollTo(0, parseInt(document.body.style.top || '0') * -1);
       document.body.classList.remove('body-scroll-lock');
     }
