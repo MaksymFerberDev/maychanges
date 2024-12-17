@@ -7,6 +7,15 @@ import { TMediaData } from './interfaces';
 
 export const mediaData: TMediaData[] = [
   {
+    title: '3 Metal Fab Acquisitions - Synergies & Shared Operational Excellence',
+    text: `In this conversation, Jon Stoddard interviews Jules Brenner from Metal Solutions Holdings, discussing the company's journey in acquiring multiple welding and metal manufacturing businesses.`,
+    readMore: 'https://www.youtube.com/watch?v=kHd8MX1ej-Q',
+    date: 'December 2 2024',
+    media: '/assets/pictures/media/3metalfab.jpg',
+    tweet: null,
+    podcast: null,
+  },
+  {
     title: 'E245: Why California is the Perfect Place for Industrial Rollups and Business Growth',
     text: 'In this episode of the How2Exit podcast, Ronald Skelton talks with Jules Brenner, founder of Industrial Succession, about his industrial roll-up strategy targeting metal fabrication companies in California.',
     readMore: 'https://www.youtube.com/watch?v=Rs3517tMrKY',
