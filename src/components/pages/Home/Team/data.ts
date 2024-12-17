@@ -78,35 +78,73 @@ export const teamData: TTeamData[] = [
   },
   {
     id: 5,
-    image: '/assets/pictures/home/team/moser.webp',
-    name: 'Mike Moser',
-    position: 'COO of Pen Manufacturing',
-    linkedin: 'https://www.linkedin.com/in/mike-moser-a96142b',
+    image: '/assets/pictures/home/team/brian.png',
+    name: 'Brian Valparaiso',
+    position: 'General Manager of Pen MFG',
+    linkedin: 'https://www.linkedin.com/in/brian-valparaiso-b8417b146/',
 
     modal: {
       short_description:
-        'Mike is a highly accomplished senior-level executive with an extensive background in aerospace manufacturing. He has been successfully leading teams of professionals with sound strategy and decisive leadership for over two decades. With a demonstrated talent for reviving businesses and implementing strategic corporate infrastructure adjustments., he has been able to successfully work with senior leadership to meet growth expectations while improving efficiency, quality, and customer satisfaction. With his analytical mind and decisive nature, Mike is a proven leader with a high level of manufacturing and technical expertise.',
+        'Experienced Manufacturing and Operations Leader with 40+ Years of Expertise in Aerospace, Quality Control, and Operational Excellence',
       description: [
-        'In his role as Director of Operations at Cadence Aerospace from February 2016 through July 2017, Mike was responsible for the smooth integration of two manufacturing companies into a single $95 million dollar entity. He also successfully turned around three critical customers, returning them from years of delinquency. After a private equity sale and merger in 2017, Mike took on the role of Director of Operations at Precision Components, owned by Triumph Group. In this role, Mike was responsible for guiding and overseeing the various control departments of a $40m Aerospace Gantry facility. Mike successfully increased manufacturing throughput by over 32% by implementing innovative SMED techniques and also revised ERP standards that drove company-wide use of metric-driven performance measurements. In his role with US Precision Sheet Metal he began in December of 2018, Mike was able to turn the company around from a $1.8M loss in 2018 to a $2.0M NI profit in 2019. In just a year’s time, he implemented a new ERP system that grew annual gross margins from 23% to 51%. Also, he obtained Nadcap certification while decreasing the overall cost of quality by 47%.',
-        'As a trusted partner and direct collaborator with Presidents and CEOs on all operational matters and P&L results, Mike is focused on facilitating high-level strategy improvement and implementation of initiatives on schedule, and on budget through, progressive levels of command. Mike holds degrees in economics and business administration and certificates in Lean Manufacturing, Zero-Defect Planning, and Statistical Process Control.',
+        `A seasoned and results-driven operations and manufacturing leader, Brian K. Valparaiso brings extensive
+experience in aerospace manufacturing and engineering, with a focus on safety culture, quality control,
+continuous improvement, and process optimization. Throughout his career, he has successfully led
+cross-functional teams, implemented Lean and TOC methodologies, and driven strategic initiatives that
+resulted in significant cost savings, improved production efficiency, and enhanced safety standards. He
+is adept at managing large-scale operations, improving on-time delivery (OTD), and overseeing full P&amp;L
+responsibility. Brian has a track record of executing performance turnarounds, enhancing customer
+relationships, and leveraging advanced manufacturing technologies in industries such as aerospace,
+automotive, and heavy manufacturing.`,
+        `Brian has extensive experience in operations and manufacturing leadership, spanning across several key
+industries. As Plant Manager at ATI in Irvine, CA (July 2022 - August 2023), he managed day-to-day
+operations for a $100M revenue site, overseeing P&amp;L, supply chain, production control, forging,
+machining, heat treatment, ultrasonic NDT, maintenance, and shipping. He led a post-COVID team
+rebuild, focusing on staffing, cross-functional teamwork, and safety culture, while implementing TOC
+and Lean methodologies to reduce waste and meet performance targets. Additionally, he managed five
+sites with seven salaried staff and 100 indirect reports. At SIFCO Industries (2020 - 2022), he was
+General Manager, where he led all manufacturing operations and ensured safety compliance,
+environmental responsibility, and customer relations. He drove cost improvements through
+performance metrics and improved sales via better cost management. As Multi-Site VP and GM at
+Consolidated Precision Products (2019 - 2020), Brian was responsible for managing multiple sites with
+full P&amp;L and budget responsibilities. He focused on new product and prototype development, cost
+reduction, and Lean process improvements. At Cadence Aerospace (2016 - 2019), he served as Director
+of Operations and GM, where he managed manufacturing, CNC machining, welding, and forming
+operations, driving efficiency, waste reduction, and on-time delivery. His experience also includes roles
+at National Oil Well Varco, Actron Manufacturing, Owens Illinois Glass Company, and Lubricating
+Specialties Co., where he led manufacturing, managed CAPEX projects, and optimized processes. As a
+Business Consultant (2001 - 2008), he improved manufacturing processes, quality control procedures,
+and managed plant re-commissioning efforts for aerospace clients. Earlier in his career, Brian worked at
+Air Industries Corporation, where he focused on customer relations, technical support, and process
+improvements for aerospace manufacturing. He holds certifications in AS9100 (D) compliance and Lean
+Manufacturing and has a proven track record in driving operational efficiency, safety, and high-
+performance teams.`,
+        `His career showcases a deep commitment to operational excellence, safety, and quality across multiple
+manufacturing environments. His leadership style, centered around servant leadership and continuous
+improvement, has led to significant achievements in performance, cost reduction, and customer
+satisfaction.`,
+        `Brian has a diverse educational background in engineering and management. He earned a degree in
+Engineering Management from Arizona State University in 2016 through the Ira A. Fulton School of
+Engineering. Prior to that, he attended California State University Long Beach (2012-2016), where he
+pursued Mechanical and Aerospace Engineering at the senior status level. He also studied Mechanical
+Engineering at California Polytechnic-Pomona from 1984 to 1989. Brian began his academic journey at
+Don Bosco Technical Institute in Rosemead, CA, where he earned an Associates in Science in
+Manufacturing Technology in 1984.`
       ],
     },
   },
   {
     id: 6,
-    image: '/assets/pictures/home/team/nunez.webp',
-    name: 'Oneida Nunez',
-    position: 'Vice President of Construction-ASM',
-    linkedin: 'https://www.linkedin.com/in/oneida-nunez-63216077',
+    image: '/assets/pictures/home/team/don.jpeg',
+    name: 'Don Kim',
+    position: 'M&A Manager of Industrial Succession',
+    linkedin: 'https://www.linkedin.com/in/dongmoonkim/',
 
     modal: {
       short_description:
-        'Oneida Nunez is a highly accomplished construction professional with an exemplary track record in strategic planning and leading complex, multi-billion dollar projects. She has been successfully managing large-scale teams and organizations for over 15 years with a unique and innovative strategic vision and a proven ability to execute. Oneida holds a Bachelor of Science in Civil Engineering from Loyola Marymount University, Los Angeles, CA. Since she earned her degree, she has excelled in areas such as project development, management of change (MOC), risk assessment, procurement, continuous improvement, and change management.',
+        '',
       description: [
-        'In a previous role as a senior project manager at Kiewit Los Angeles, Oneida expertly implemented enterprise-wide business processes and tools with flawless precision. In this role, she proactively trained teams of all sizes and supervised the development of technical provision plans, project delivery strategies, legal considerations, revenue forecasting techniques, financial reporting standards, and design optimization tactics. She also coordinated with stakeholders for the development of new project contracts and specifications in order to help identify key business development opportunities. In this role, Oneida developed advanced knowledge and savvy problem-solving techniques that have enabled her to ensure the success of numerous highly nuanced projects under her supervision.',
-        'In her role as the Director of Program Management for the Los Angeles County Metropolitan Transportation Authority, Oneida spearheaded the delivery of major construction and design projects and was able to successfully execute their $40 Billion Capital Program. During this time, Oneida oversaw the development of cost analysis, feasibility studies, contract development, and procurement strategy for billion-dollar LightRail, Highway, and Capital Improvement projects.',
-        'In 2019, Oneida moved on to accept a position as the Manager of Project Development in Construction for the Southern California Gas Company. In this role, Oneida was able to implement innovative solutions and new technologies that helped drive process improvement and maximize the long-term value delivered by their capital projects. Oneida further developed her advanced leadership skills in this role at multiple levels ranging from training and development to succession planning.',
-        'As a proven leader with a demonstrated ability to drive innovation and project success, Oneida is highly motivated to cultivate long-term success in her role as Industrial Succession’s VP of Construction.',
+        ``
       ],
     },
   },
