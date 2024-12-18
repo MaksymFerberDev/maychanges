@@ -50,34 +50,9 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
+
   {
     id: 4,
-    image: '/assets/pictures/home/team/riddle.webp',
-    name: 'Ted Riddle',
-    position: 'Operating Advisor-Metal Solutions Holdings',
-    linkedin: 'https://www.linkedin.com/in/ted-riddle/',
-
-    modal: {
-      short_description:
-        'Ted is a senior executive with more than 35 years of experience in the metals production, distribution, fabrication, and finishing segment. He has a proven track record of partnering with a variety of stakeholders, including boards of directors, investors, and lenders.',
-      description: [
-        'In his most recent role as President & COO of National Material L.P., a private investment firm with 23 multinational companies and 3,500+ employees, Ted was responsible for P&L of the entire firm, served on the boards of its joint ventures alongside partners – AK Steel, POSCO, Marubeni Itochu, Heidtman Steel, Hammond Power Solutions – and was instrumental in completing numerous acquisitions. He also served on the board of Metals Service Center Institute.',
-        'Previously, Ted served as CEO of Arch Acquisition Holdings (portfolio company of H.I.G. Capital) where he led the turnaround of the groups’ aluminum mills and subsequent sale process to strategic buyers.',
-        'He also served for over a decade with Ryerson as Vice President and General Manager, with P&L responsibility for 24 plants. During that period, Ted served on the executive team that took the company public, helped scale the company from $2B to $6B+, and made numerous operational improvements through Lean implementation.',
-        'Ted holds a Bachelor of Arts in Psychology and Economics from Winthrop University and a Corporate Governance Certification from the Kellogg School of Management at Northwestern University.',
-      ],
-      list: {
-        title: 'Sector-Related Experience',
-        items: [
-          'National Material L.P., President & Chief Operating Officer',
-          'Arch Acquisition Holdings, Chief Executive Officer',
-          'Ryerson, Vice President and General Manager',
-        ],
-      },
-    },
-  },
-  {
-    id: 5,
     image: '/assets/pictures/home/team/brian.png',
     name: 'Brian Valparaiso',
     position: 'General Manager of Pen MFG',
@@ -134,10 +109,27 @@ Manufacturing Technology in 1984.`
     },
   },
   {
+    id: 5,
+    image: '/assets/pictures/home/team/nunez.webp',
+    name: 'Oneida Nunez',
+    position: 'Vice President of Construction-ASM',
+    linkedin: 'https://www.linkedin.com/in/oneida-nunez-63216077',
+    modal: {
+      short_description:
+        'Oneida Nunez is a highly accomplished construction professional with an exemplary track record in strategic planning and leading complex, multi-billion dollar projects. She has been successfully managing large-scale teams and organizations for over 15 years with a unique and innovative strategic vision and a proven ability to execute. Oneida holds a Bachelor of Science in Civil Engineering from Loyola Marymount University, Los Angeles, CA. Since she earned her degree, she has excelled in areas such as project development, management of change (MOC), risk assessment, procurement, continuous improvement, and change management.',
+      description: [
+        'In a previous role as a senior project manager at Kiewit Los Angeles, Oneida expertly implemented enterprise-wide business processes and tools with flawless precision. In this role, she proactively trained teams of all sizes and supervised the development of technical provision plans, project delivery strategies, legal considerations, revenue forecasting techniques, financial reporting standards, and design optimization tactics. She also coordinated with stakeholders for the development of new project contracts and specifications in order to help identify key business development opportunities. In this role, Oneida developed advanced knowledge and savvy problem-solving techniques that have enabled her to ensure the success of numerous highly nuanced projects under her supervision.',
+        'In her role as the Director of Program Management for the Los Angeles County Metropolitan Transportation Authority, Oneida spearheaded the delivery of major construction and design projects and was able to successfully execute their $40 Billion Capital Program. During this time, Oneida oversaw the development of cost analysis, feasibility studies, contract development, and procurement strategy for billion-dollar LightRail, Highway, and Capital Improvement projects.',
+        'In 2019, Oneida moved on to accept a position as the Manager of Project Development in Construction for the Southern California Gas Company. In this role, Oneida was able to implement innovative solutions and new technologies that helped drive process improvement and maximize the long-term value delivered by their capital projects. Oneida further developed her advanced leadership skills in this role at multiple levels ranging from training and development to succession planning.',
+        'As a proven leader with a demonstrated ability to drive innovation and project success, Oneida is highly motivated to cultivate long-term success in her role as Industrial Succession’s VP of Construction.',
+      ],
+    },
+  },
+  {
     id: 6,
     image: '/assets/pictures/home/team/don.jpeg',
     name: 'Don Kim',
-    position: 'M&A Manager of Industrial Succession',
+    position: 'M&A Manager',
     linkedin: 'https://www.linkedin.com/in/dongmoonkim/',
 
     modal: {
