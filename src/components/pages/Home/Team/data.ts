@@ -60,51 +60,11 @@ export const teamData: TTeamData[] = [
 
     modal: {
       short_description:
-        'Experienced Manufacturing and Operations Leader with 40+ Years of Expertise in Aerospace, Quality Control, and Operational Excellence',
+        'Brian Valparaiso is an accomplished operations and manufacturing leader with extensive expertise in aerospace, safety culture, quality control, process optimization, and continuous improvement. He has a proven track record of implementing Lean and TOC methodologies to drive efficiency, reduce costs, and enhance safety standards. Brian is skilled in managing large-scale operations, improving on-time delivery, and overseeing full P&L responsibility. His career spans key industries, including aerospace, automotive, and heavy manufacturing, where he has delivered significant performance improvements and strengthened customer relationships.',
       description: [
-        `A seasoned and results-driven operations and manufacturing leader, Brian K. Valparaiso brings extensive
-experience in aerospace manufacturing and engineering, with a focus on safety culture, quality control,
-continuous improvement, and process optimization. Throughout his career, he has successfully led
-cross-functional teams, implemented Lean and TOC methodologies, and driven strategic initiatives that
-resulted in significant cost savings, improved production efficiency, and enhanced safety standards. He
-is adept at managing large-scale operations, improving on-time delivery (OTD), and overseeing full P&amp;L
-responsibility. Brian has a track record of executing performance turnarounds, enhancing customer
-relationships, and leveraging advanced manufacturing technologies in industries such as aerospace,
-automotive, and heavy manufacturing.`,
-        `Brian has extensive experience in operations and manufacturing leadership, spanning across several key
-industries. As Plant Manager at ATI in Irvine, CA (July 2022 - August 2023), he managed day-to-day
-operations for a $100M revenue site, overseeing P&amp;L, supply chain, production control, forging,
-machining, heat treatment, ultrasonic NDT, maintenance, and shipping. He led a post-COVID team
-rebuild, focusing on staffing, cross-functional teamwork, and safety culture, while implementing TOC
-and Lean methodologies to reduce waste and meet performance targets. Additionally, he managed five
-sites with seven salaried staff and 100 indirect reports. At SIFCO Industries (2020 - 2022), he was
-General Manager, where he led all manufacturing operations and ensured safety compliance,
-environmental responsibility, and customer relations. He drove cost improvements through
-performance metrics and improved sales via better cost management. As Multi-Site VP and GM at
-Consolidated Precision Products (2019 - 2020), Brian was responsible for managing multiple sites with
-full P&amp;L and budget responsibilities. He focused on new product and prototype development, cost
-reduction, and Lean process improvements. At Cadence Aerospace (2016 - 2019), he served as Director
-of Operations and GM, where he managed manufacturing, CNC machining, welding, and forming
-operations, driving efficiency, waste reduction, and on-time delivery. His experience also includes roles
-at National Oil Well Varco, Actron Manufacturing, Owens Illinois Glass Company, and Lubricating
-Specialties Co., where he led manufacturing, managed CAPEX projects, and optimized processes. As a
-Business Consultant (2001 - 2008), he improved manufacturing processes, quality control procedures,
-and managed plant re-commissioning efforts for aerospace clients. Earlier in his career, Brian worked at
-Air Industries Corporation, where he focused on customer relations, technical support, and process
-improvements for aerospace manufacturing. He holds certifications in AS9100 (D) compliance and Lean
-Manufacturing and has a proven track record in driving operational efficiency, safety, and high-
-performance teams.`,
-        `His career showcases a deep commitment to operational excellence, safety, and quality across multiple
-manufacturing environments. His leadership style, centered around servant leadership and continuous
-improvement, has led to significant achievements in performance, cost reduction, and customer
-satisfaction.`,
-        `Brian has a diverse educational background in engineering and management. He earned a degree in
-Engineering Management from Arizona State University in 2016 through the Ira A. Fulton School of
-Engineering. Prior to that, he attended California State University Long Beach (2012-2016), where he
-pursued Mechanical and Aerospace Engineering at the senior status level. He also studied Mechanical
-Engineering at California Polytechnic-Pomona from 1984 to 1989. Brian began his academic journey at
-Don Bosco Technical Institute in Rosemead, CA, where he earned an Associates in Science in
-Manufacturing Technology in 1984.`
+        `In his role at ATI in Irvine, CA, from 2022 to 2023, Brian managed a $100M revenue site, leading P&L, supply chain, and production operations while rebuilding a post-COVID team. He focused on fostering a safety-first culture, implementing Lean strategies, and optimizing processes to meet ambitious performance targets. During his time at SIFCO Industries between 2020 and 2022, he directed all manufacturing operations, ensuring compliance with safety and environmental standards while driving cost improvements and enhancing customer relations. Previously, as Multi-Site VP and General Manager at Consolidated Precision Products, he oversaw multiple facilities, emphasizing new product development, cost reduction, and process efficiency. At Cadence Aerospace, Brian led efforts to streamline manufacturing operations, improve CNC processes, and achieve exceptional on-time delivery performance.`,
+        `Earlier in his career, Brian held leadership positions at National Oilwell Varco, Actron Manufacturing, Owens Illinois, and Lubricating Specialties Co., where he managed CAPEX projects, optimized production processes, and advanced manufacturing technologies. As a business consultant, he improved quality control and helped aerospace clients re-commission plants. His early work at Air Industries Corporation focused on customer relations, technical support, and process improvements.`,
+        `Brian holds a degree in Engineering Management from Arizona State University, earned in 2016. He also pursued Mechanical and Aerospace Engineering at California State University, Long Beach, and studied Mechanical Engineering at California Polytechnic-Pomona. His foundation in manufacturing technology stems from his Associate of Science degree from Don Bosco Technical Institute.`,
       ],
     },
   },
