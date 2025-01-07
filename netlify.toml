@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "http://manufacturingsuccession.com/*"
-  to = "http://industrialsuccession.com/:splat"
-  status = 301
-  force = true
