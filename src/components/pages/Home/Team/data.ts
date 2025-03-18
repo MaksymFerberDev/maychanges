@@ -50,9 +50,24 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
-
   {
     id: 4,
+    image: '/assets/pictures/home/team/thomas.webp',
+    name: 'Erik Thomas',
+    position: 'Operating Partner',
+    linkedin: 'https://www.linkedin.com/in/erik-thomas/',
+
+    modal: {
+      short_description: 'Eric Thomas is a seasoned executive with extensive experience in aerospace, manufacturing, and operational excellence. As the Founder and CEO of Consolidated Turbine Support, he successfully scaled the company to $55 million in revenue before leading its acquisition by private equity.',
+      description: [
+        'With a strong foundation in mechanical engineering, Eric previously served as a Senior Mechanical Project Engineer, Military Programs at Honeywell Aerospace, where he played a key role in the development of advanced defense and aerospace systems. His expertise extends to manufacturing consulting, having advised companies through his work with California Manufacturing Technology Consulting, focusing on process optimization and efficiency improvements.',
+        'Eric holds a Bachelor of Science in Mechanical Engineering from Washington State University and is a certified Six Sigma Plus Black Belt, demonstrating his commitment to operational excellence and continuous improvement.',
+      ]
+    }
+  },
+
+  {
+    id: 5,
     image: '/assets/pictures/home/team/brian.png',
     name: 'Brian Valparaiso',
     position: 'General Manager of Pen MFG',
@@ -69,7 +84,7 @@ export const teamData: TTeamData[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     image: '/assets/pictures/home/team/nunez.webp',
     name: 'Oneida Nunez',
     position: 'Vice President of Construction-ASM',
@@ -86,7 +101,7 @@ export const teamData: TTeamData[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     image: '/assets/pictures/home/team/don.jpeg',
     name: 'Don Kim',
     position: 'M&A Manager',
@@ -101,7 +116,7 @@ export const teamData: TTeamData[] = [
     },
   },
   {
-    id: 7,
+    id: 8,
     image: '/assets/pictures/home/team/rosati.webp',
     name: 'Sam Rosati',
     position: 'Strategic Investor-Advisor',
@@ -116,7 +131,7 @@ export const teamData: TTeamData[] = [
     },
   },
   {
-    id: 8,
+    id: 9,
     image: '/assets/pictures/home/team/odmark.webp',
     name: 'Eric Odmark',
     position: 'Strategic Investor-Advisor',
