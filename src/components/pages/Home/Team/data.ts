@@ -55,7 +55,7 @@ export const teamData: TTeamData[] = [
     image: '/assets/pictures/home/team/thomas.webp',
     name: 'Erik Thomas',
     position: 'Operating Partner',
-    linkedin: 'https://www.linkedin.com/in/erik-thomas/',
+    linkedin: '',
 
     modal: {
       short_description: 'Eric Thomas is a seasoned executive with extensive experience in aerospace, manufacturing, and operational excellence. As the Founder and CEO of Consolidated Turbine Support, he successfully scaled the company to $55 million in revenue before leading its acquisition by private equity.',
