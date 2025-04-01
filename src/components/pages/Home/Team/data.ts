@@ -109,9 +109,11 @@ export const teamData: TTeamData[] = [
 
     modal: {
       short_description:
-        '',
+        'Don Kim is the M&A Manager at Industrial Succession Group (ISG) in Los Angeles, overseeing deal sourcing, financial assessments, valuation analysis, and strategic acquisitions across diverse industrial sectors, including metal fabrication and aerospace.',
       description: [
-        ``
+        'Don began his career as an Investment Banking Analyst at DBS Bank, managing international corporate finance and M&A transactions. He subsequently held strategic finance roles at Sumitomo Mitsui Banking Corporation, UE Ventures, and Deloitte, where he focused on financial planning, capital optimization, and operational improvements.',
+        'Don also served in military intelligence and strategy roles in the U.S.-allied Republic of Korea Army. Additionally, as a Legislative Advisor to South Korea’s National Assembly Defense Committee, he contributed to significant aerospace initiatives, notably the KF-21 fighter jet program, involving the transfer of AESA radar and RF Jammer technology from the F-35 program in collaboration with Lockheed Martin.',
+        'Don holds a degree in Economics from Pennsylvania State University and an MBA in Global Management from Thunderbird School of Global Management.'
       ],
     },
   },
