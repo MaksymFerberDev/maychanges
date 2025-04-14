@@ -39,8 +39,7 @@ export const teamData: TTeamData[] = [
     image: '/assets/pictures/home/team/pettibone.webp',
     name: 'Kenneth Pettibone',
     position: 'Director of Finance and M&A',
-    // linkedin: 'https://www.linkedin.com/in/ted-riddle/',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/kenneth-pettibone-36116a1b3/',
 
     modal: {
       short_description:
