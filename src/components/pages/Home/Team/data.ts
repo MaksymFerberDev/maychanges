@@ -54,7 +54,7 @@ export const teamData: TTeamData[] = [
     id: 4,
     image: '/assets/pictures/home/team/thomas.webp',
     name: 'Erik Thomas',
-    position: 'Operating Partner',
+    position: 'Advisor/Consultant',
     linkedin: '',
 
     modal: {
