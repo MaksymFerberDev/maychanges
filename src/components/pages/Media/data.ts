@@ -7,6 +7,15 @@ import { TMediaData } from './interfaces';
 
 export const mediaData: TMediaData[] = [
   {
+    title: 'Modernizing California’s Industrial Base – A Vision for Long-Term Growth',
+    text: 'In this video, Jules Brenner, Founder of Industrial Succession, shares his perspective on why California remains a critical hub for industrial growth—and how long-term investment, operational excellence, and people-first leadership are driving the next chapter of American manufacturing. From legacy turnarounds to future-proofing supply chains, this conversation highlights Industrial Succession’s bold vision for revitalizing the industrial economy.',
+    readMore: 'https://www.youtube.com/watch?v=U0c1bvacQaM',
+    date: 'July 20 2025',
+    media: '/assets/pictures/media/mModernizingIndustrial.webp',
+    tweet: null,
+    podcast: null,
+  },
+  {
     title: '3 Metal Fab Acquisitions - Synergies & Shared Operational Excellence',
     text: `In this conversation, Jon Stoddard interviews Jules Brenner from Metal Solutions Holdings, discussing the company's journey in acquiring multiple welding and metal manufacturing businesses.`,
     readMore: 'https://www.youtube.com/watch?v=kHd8MX1ej-Q',
