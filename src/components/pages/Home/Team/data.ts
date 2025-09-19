@@ -66,23 +66,23 @@ export const teamData: TTeamData[] = [
     }
   },
 
-  {
-    id: 5,
-    image: '/assets/pictures/home/team/brian.png',
-    name: 'Brian Valparaiso',
-    position: 'General Manager of Pen MFG',
-    linkedin: 'https://www.linkedin.com/in/brian-valparaiso-b8417b146/',
+  // {
+  //   id: 5,
+  //   image: '/assets/pictures/home/team/brian.png',
+  //   name: 'Brian Valparaiso',
+  //   position: 'General Manager of Pen MFG',
+  //   linkedin: 'https://www.linkedin.com/in/brian-valparaiso-b8417b146/',
 
-    modal: {
-      short_description:
-        'Brian Valparaiso is an accomplished operations and manufacturing leader with extensive expertise in aerospace, safety culture, quality control, process optimization, and continuous improvement. He has a proven track record of implementing Lean and TOC methodologies to drive efficiency, reduce costs, and enhance safety standards. Brian is skilled in managing large-scale operations, improving on-time delivery, and overseeing full P&L responsibility. His career spans key industries, including aerospace, automotive, and heavy manufacturing, where he has delivered significant performance improvements and strengthened customer relationships.',
-      description: [
-        `In his role at ATI in Irvine, CA, from 2022 to 2023, Brian managed a $100M revenue site, leading P&L, supply chain, and production operations while rebuilding a post-COVID team. He focused on fostering a safety-first culture, implementing Lean strategies, and optimizing processes to meet ambitious performance targets. During his time at SIFCO Industries between 2020 and 2022, he directed all manufacturing operations, ensuring compliance with safety and environmental standards while driving cost improvements and enhancing customer relations. Previously, as Multi-Site VP and General Manager at Consolidated Precision Products, he oversaw multiple facilities, emphasizing new product development, cost reduction, and process efficiency. At Cadence Aerospace, Brian led efforts to streamline manufacturing operations, improve CNC processes, and achieve exceptional on-time delivery performance.`,
-        `Earlier in his career, Brian held leadership positions at National Oilwell Varco, Actron Manufacturing, Owens Illinois, and Lubricating Specialties Co., where he managed CAPEX projects, optimized production processes, and advanced manufacturing technologies. As a business consultant, he improved quality control and helped aerospace clients re-commission plants. His early work at Air Industries Corporation focused on customer relations, technical support, and process improvements.`,
-        `Brian holds a degree in Engineering Management from Arizona State University, earned in 2016. He also pursued Mechanical and Aerospace Engineering at California State University, Long Beach, and studied Mechanical Engineering at California Polytechnic-Pomona. His foundation in manufacturing technology stems from his Associate of Science degree from Don Bosco Technical Institute.`,
-      ],
-    },
-  },
+  //   modal: {
+  //     short_description:
+  //       'Brian Valparaiso is an accomplished operations and manufacturing leader with extensive expertise in aerospace, safety culture, quality control, process optimization, and continuous improvement. He has a proven track record of implementing Lean and TOC methodologies to drive efficiency, reduce costs, and enhance safety standards. Brian is skilled in managing large-scale operations, improving on-time delivery, and overseeing full P&L responsibility. His career spans key industries, including aerospace, automotive, and heavy manufacturing, where he has delivered significant performance improvements and strengthened customer relationships.',
+  //     description: [
+  //       `In his role at ATI in Irvine, CA, from 2022 to 2023, Brian managed a $100M revenue site, leading P&L, supply chain, and production operations while rebuilding a post-COVID team. He focused on fostering a safety-first culture, implementing Lean strategies, and optimizing processes to meet ambitious performance targets. During his time at SIFCO Industries between 2020 and 2022, he directed all manufacturing operations, ensuring compliance with safety and environmental standards while driving cost improvements and enhancing customer relations. Previously, as Multi-Site VP and General Manager at Consolidated Precision Products, he oversaw multiple facilities, emphasizing new product development, cost reduction, and process efficiency. At Cadence Aerospace, Brian led efforts to streamline manufacturing operations, improve CNC processes, and achieve exceptional on-time delivery performance.`,
+  //       `Earlier in his career, Brian held leadership positions at National Oilwell Varco, Actron Manufacturing, Owens Illinois, and Lubricating Specialties Co., where he managed CAPEX projects, optimized production processes, and advanced manufacturing technologies. As a business consultant, he improved quality control and helped aerospace clients re-commission plants. His early work at Air Industries Corporation focused on customer relations, technical support, and process improvements.`,
+  //       `Brian holds a degree in Engineering Management from Arizona State University, earned in 2016. He also pursued Mechanical and Aerospace Engineering at California State University, Long Beach, and studied Mechanical Engineering at California Polytechnic-Pomona. His foundation in manufacturing technology stems from his Associate of Science degree from Don Bosco Technical Institute.`,
+  //     ],
+  //   },
+  // },
   {
     id: 6,
     image: '/assets/pictures/home/team/nunez.webp',
@@ -100,23 +100,23 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
-  {
-    id: 7,
-    image: '/assets/pictures/home/team/don.jpeg',
-    name: 'Don Kim',
-    position: 'M&A Manager',
-    linkedin: 'https://www.linkedin.com/in/dongmoonkim/',
+  // {
+  //   id: 7,
+  //   image: '/assets/pictures/home/team/don.jpeg',
+  //   name: 'Don Kim',
+  //   position: 'M&A Manager',
+  //   linkedin: 'https://www.linkedin.com/in/dongmoonkim/',
 
-    modal: {
-      short_description:
-        'Don Kim is the M&A Manager at Industrial Succession Group (ISG) in Los Angeles, overseeing deal sourcing, financial assessments, valuation analysis, and strategic acquisitions across diverse industrial sectors, including metal fabrication and aerospace.',
-      description: [
-        'Don began his career as an Investment Banking Analyst at DBS Bank, managing international corporate finance and M&A transactions. He subsequently held strategic finance roles at Sumitomo Mitsui Banking Corporation, UE Ventures, and Deloitte, where he focused on financial planning, capital optimization, and operational improvements.',
-        'Don also served in military intelligence and strategy roles in the U.S.-allied Republic of Korea Army. Additionally, as a Legislative Advisor to South Korea’s National Assembly Defense Committee, he contributed to significant aerospace initiatives, notably the KF-21 fighter jet program, involving the transfer of AESA radar and RF Jammer technology from the F-35 program in collaboration with Lockheed Martin.',
-        'Don holds a degree in Economics from Pennsylvania State University and an MBA in Global Management from Thunderbird School of Global Management.'
-      ],
-    },
-  },
+  //   modal: {
+  //     short_description:
+  //       'Don Kim is the M&A Manager at Industrial Succession Group (ISG) in Los Angeles, overseeing deal sourcing, financial assessments, valuation analysis, and strategic acquisitions across diverse industrial sectors, including metal fabrication and aerospace.',
+  //     description: [
+  //       'Don began his career as an Investment Banking Analyst at DBS Bank, managing international corporate finance and M&A transactions. He subsequently held strategic finance roles at Sumitomo Mitsui Banking Corporation, UE Ventures, and Deloitte, where he focused on financial planning, capital optimization, and operational improvements.',
+  //       'Don also served in military intelligence and strategy roles in the U.S.-allied Republic of Korea Army. Additionally, as a Legislative Advisor to South Korea’s National Assembly Defense Committee, he contributed to significant aerospace initiatives, notably the KF-21 fighter jet program, involving the transfer of AESA radar and RF Jammer technology from the F-35 program in collaboration with Lockheed Martin.',
+  //       'Don holds a degree in Economics from Pennsylvania State University and an MBA in Global Management from Thunderbird School of Global Management.'
+  //     ],
+  //   },
+  // },
   // {
   //   id: 8,
   //   image: '/assets/pictures/home/team/rosati.webp',
