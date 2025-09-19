@@ -34,22 +34,22 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
-  {
-    id: 3,
-    image: '/assets/pictures/home/team/pettibone.webp',
-    name: 'Kenneth Pettibone',
-    position: 'Director of Finance and M&A',
-    linkedin: 'https://www.linkedin.com/in/kenneth-pettibone-36116a1b3/',
+  // {
+  //   id: 3,
+  //   image: '/assets/pictures/home/team/pettibone.webp',
+  //   name: 'Kenneth Pettibone',
+  //   position: 'Director of Finance and M&A',
+  //   linkedin: 'https://www.linkedin.com/in/kenneth-pettibone-36116a1b3/',
 
-    modal: {
-      short_description:
-        'As an Director of Finance and M&A, Kenneth’s responsibilities include supporting the strategic initiatives of portfolio companies, evaluating investment opportunities, and assisting in the deal execution and diligence of new investments.',
-      description: [
-        'Since joining Industrial Succession, he has helped to source a growing list of potential platform and add-on acquisitions using data analytics and strategic growth strategies. Prior to joining Industrial Succession, Kenneth spent time working in commercial real estate where he was part of a team that was involved in multiple successful investment opportunities in the Southwest. While touching on a variety of steps along the process, his main responsibilities were analyzing cash flows and assessing returns for clients.',
-        'Kenneth obtained his Bachelor of Arts degree in Business Management from Azusa Pacific University in 3 years while pitching competitively for the school’s NCAA baseball team. Kenneth also holds an MBA in Finance from Azusa Pacific University. Born and raised in Orange County, CA, Kenneth enjoys surfing, hiking and playing tennis.',
-      ],
-    },
-  },
+  //   modal: {
+  //     short_description:
+  //       'As an Director of Finance and M&A, Kenneth’s responsibilities include supporting the strategic initiatives of portfolio companies, evaluating investment opportunities, and assisting in the deal execution and diligence of new investments.',
+  //     description: [
+  //       'Since joining Industrial Succession, he has helped to source a growing list of potential platform and add-on acquisitions using data analytics and strategic growth strategies. Prior to joining Industrial Succession, Kenneth spent time working in commercial real estate where he was part of a team that was involved in multiple successful investment opportunities in the Southwest. While touching on a variety of steps along the process, his main responsibilities were analyzing cash flows and assessing returns for clients.',
+  //       'Kenneth obtained his Bachelor of Arts degree in Business Management from Azusa Pacific University in 3 years while pitching competitively for the school’s NCAA baseball team. Kenneth also holds an MBA in Finance from Azusa Pacific University. Born and raised in Orange County, CA, Kenneth enjoys surfing, hiking and playing tennis.',
+  //     ],
+  //   },
+  // },
   {
     id: 4,
     image: '/assets/pictures/home/team/thomas.webp',
@@ -117,33 +117,33 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
-  {
-    id: 8,
-    image: '/assets/pictures/home/team/rosati.webp',
-    name: 'Sam Rosati',
-    position: 'Strategic Investor-Advisor',
-    linkedin: 'http://linkedin.com/in/sam-rosati-68787a8',
+  // {
+  //   id: 8,
+  //   image: '/assets/pictures/home/team/rosati.webp',
+  //   name: 'Sam Rosati',
+  //   position: 'Strategic Investor-Advisor',
+  //   linkedin: 'http://linkedin.com/in/sam-rosati-68787a8',
 
-    modal: {
-      short_description: 'Sam Rosati has been the Founder of the Pursuant Capital since 2016.',
-      description: [
-        'Pursuant Capital is a Micro Private Equity firm that buys and grows Florida-based businesses with a “forever” holding period. After acquiring 6 companies, Sam supports other Micro PE groups and Industrial Succession through co-investments and post-close experience.',
-        'Sam Rosati holds a JD degree in Law from the University of Virginia School of Law. You can learn more about Sam and his support for Industrial Succession investments at PursuantCapital.com',
-      ],
-    },
-  },
-  {
-    id: 9,
-    image: '/assets/pictures/home/team/odmark.webp',
-    name: 'Eric Odmark',
-    position: 'Strategic Investor-Advisor',
-    linkedin: 'https://www.linkedin.com/in/ericodmark/',
+  //   modal: {
+  //     short_description: 'Sam Rosati has been the Founder of the Pursuant Capital since 2016.',
+  //     description: [
+  //       'Pursuant Capital is a Micro Private Equity firm that buys and grows Florida-based businesses with a “forever” holding period. After acquiring 6 companies, Sam supports other Micro PE groups and Industrial Succession through co-investments and post-close experience.',
+  //       'Sam Rosati holds a JD degree in Law from the University of Virginia School of Law. You can learn more about Sam and his support for Industrial Succession investments at PursuantCapital.com',
+  //     ],
+  //   },
+  // },
+  // {
+  //   id: 9,
+  //   image: '/assets/pictures/home/team/odmark.webp',
+  //   name: 'Eric Odmark',
+  //   position: 'Strategic Investor-Advisor',
+  //   linkedin: 'https://www.linkedin.com/in/ericodmark/',
 
-    modal: {
-      short_description: 'Eric Odmark has been the Co-founder of the Trailside Equity Partners since 2022',
-      description: [
-        'Trailside Equity Partners is a Micro Private Equity firm that buys and grows Midwest-based businesses with a “forever” holding period. After acquiring 7 companies under the metal fabricator, IMH’s, umbrella, Eric and his partner Mark support Industrial Succession through co-investments and post-close experience. Eric Odmark holds an MBA in Finance from Butler University. You can learn more about Eric and his support for Industrial Succession investments at IMH.com',
-      ],
-    },
-  },
+  //   modal: {
+  //     short_description: 'Eric Odmark has been the Co-founder of the Trailside Equity Partners since 2022',
+  //     description: [
+  //       'Trailside Equity Partners is a Micro Private Equity firm that buys and grows Midwest-based businesses with a “forever” holding period. After acquiring 7 companies under the metal fabricator, IMH’s, umbrella, Eric and his partner Mark support Industrial Succession through co-investments and post-close experience. Eric Odmark holds an MBA in Finance from Butler University. You can learn more about Eric and his support for Industrial Succession investments at IMH.com',
+  //     ],
+  //   },
+  // },
 ];
