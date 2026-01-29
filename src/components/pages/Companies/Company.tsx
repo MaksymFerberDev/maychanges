@@ -7,7 +7,7 @@ export const Company = () => {
     <section className={styles.wrapper}>
       <h1 className={styles.title}>Companies</h1>
       <div className={styles.main}>
-        <Link href="https://metalsolutionsholdings.com/" target='_blank' className={styles.metal}>
+      
           <Image
             src="/assets/pictures/companies/logo_msh.png"
             width={204}
@@ -24,17 +24,9 @@ export const Company = () => {
             <Image src='/assets/icons/vector_arrow.svg' alt='arrow' width={205} height={173} className={styles.vector} />
           </div>
 
-          <div className={styles.platforms}>
-            <h4 className={styles.platformsTitle}>Platforms</h4>
+        
 
-            <Link href='https://asmsheetmetal.com/' target='_blank' className={styles.whitePlatform}>
-              <Image src='/assets/pictures/companies/asm_logo.png' alt='asm platform' width={147} height={67} />
-              <Image src='/assets/icons/arrow_black.svg' alt='arrow' width={24} height={24} />
-            </Link>
-
-            <Link href='https://www.pendarvismanufacturing.com/' target='_blank' className={styles.blackPlatform}>
-              <Image src='/assets/pictures/companies/pendarvis_logo.png' alt='pen platform' width={274} height={67} />
-              <Image src='/assets/icons/arrow_white.svg' alt='arrow' width={24} height={24} />
+            
             </Link>
           </div>
         </div>
