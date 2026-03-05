@@ -42,7 +42,7 @@ export const Attributes = () => {
         </h2>
         <p className={styles.mainDescription}>
           We are searching for privately held companies with developed operational processes that need sales,
-          organizational, and marketing improvement to grow. Businesses should have EBITDA of sub-$5m with stable cash
+          organizational, and marketing improvement to grow. Businesses should have EBITDA of sub-$20m with stable cash
           flows. We are agnostic to all types of USA manufacturing and industrials businesses. We are passionate about
           businesses that:
         </p>

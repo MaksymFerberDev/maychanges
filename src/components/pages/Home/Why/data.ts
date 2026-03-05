@@ -26,7 +26,7 @@ export const whyData: TWhyData[] = [
     id: 4,
     title: 'Capital',
     description:
-      'Through our network of high net-worth individuals, strategic investors and banks, we are able to quickly fund deals of up to $40m in value. As needed, we can provide letters of capital commitment.',
+      'Through our network of high net-worth individuals, strategic investors and banks, we are able to quickly fund deals of up to $100m in value. As needed, we can provide letters of capital commitment.',
     icon: '/assets/icons/Why/dollar.svg',
   },
   {
