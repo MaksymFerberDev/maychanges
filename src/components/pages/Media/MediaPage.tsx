@@ -44,7 +44,7 @@ export const MediaPage = () => {
                 </div>
               ) : item.tweet ? (
                 <div className={styles.tweet}>
-                  <Tweet id='1785048269493510273' />
+                  <Tweet id={item.tweet} />
                 </div>
               ) : item.podcast ? (
                 <div className={styles.podcast}>
