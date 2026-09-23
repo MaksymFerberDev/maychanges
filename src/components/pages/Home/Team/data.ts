@@ -34,6 +34,24 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
+  {
+    id: 3,
+    image: '/assets/pictures/home/team/BrackHudson.webp',
+    name: 'Brack Hudson',
+    position: 'Managing Director',
+    linkedin: 'https://www.linkedin.com/in/brack-hudson-0406a29b/',
+
+    modal: {
+      short_description:
+        'Brack Hudson is a Managing Director at Industrial Succession, where he oversees operations across the firm’s portfolio companies and leads its M&A strategy. A second-generation steel industry principal, Brack has spent more than 20 years buying, running, and growing industrial businesses as an owner. He understands what an owner weighs when handing off a business, because he has made that decision himself.',
+      description: [
+        'Brack is the Owner, Chairman, and CEO of Interstate Steel Center, the largest privately held steel coil toll processor in California. He acquired the company in 2018, modernized its operations, grew revenue and profitability year over year, and formed strategic partnerships with publicly traded steel customers. From 2012 to 2022, he was Owner, Chairman, and CEO of Universal Marking, Inc., an AS9003 and ITAR-certified aerospace parts business serving Lockheed Martin, SpaceX, Boeing, and NASA. There he led a full turnaround: new equipment, lean production, and expansion into new industrial markets under long-term contracts. He sold the business in 2022.',
+        'Brack is the Founder of Sleight Industrial Capital, which currently owns 107,000 square feet of industrial real estate and 4.5 acres of land in Los Angeles. Through Sleight, he is a limited partner and operating advisor to Erie Strayer Company, a CQL Capital portfolio company. Earlier, Brack was recruited to Maas-Hansen Steel, then the largest privately held steel service center on the West Coast and now part of Triple-S Steel. He led diligence, financial modeling, and capital sourcing for a proposed management buyout and served as the company’s CFO and COO. He has also advised on debt and buyout transactions for K.I.T. International, Award Metals, and Desa/FMI Fireplaces.',
+        'He began his career as an Economist at the White House National Economic Council, joining one week before 9/11 and worked on the President’s economic response. He later served as a Financial Policy Aide to the Senate Banking Committee under Chairman Richard Shelby.',
+        'Brack holds a BS in Economics and an MBA in Finance from The University of Alabama.',
+      ],
+    },
+  },
   // {
   //   id: 3,
   //   image: '/assets/pictures/home/team/pettibone.webp',
@@ -146,4 +164,18 @@ export const teamData: TTeamData[] = [
   //     ],
   //   },
   // },
+  {
+    id: 7,
+    image: '/assets/pictures/home/team/MatthewB.webp',
+    name: 'Matthew Bishop',
+    position: 'President - Pen Manufacturing',
+    linkedin: 'https://www.linkedin.com/in/matthew-c-bishop/',
+    modal: {
+      short_description:
+        'Matthew Bishop is an experienced executive and operator with a background spanning manufacturing, private equity, investment banking, corporate development, and real estate. He has held senior leadership roles including Managing Partner, COO, CEO, CFO, and Managing Director, with expertise in strategic planning, mergers and acquisitions, operational improvement, lean manufacturing, business development, and acquisition integration. As COO of a multi-location sheet metal fabrication and machine shop, Matthew implemented operational and financial improvements that increased operating margins, strengthened cash flow, reduced manufacturing lead times, and improved quality and on-time delivery.',
+      description: [
+        'Matthew also brings extensive transaction and investment experience, having worked in lower-middle-market investment banking, corporate development, private equity, and business acquisitions. His career includes leadership roles with Corporate Finance Associates, Carl Zeiss Vision, Wells Fargo Securities, and Banque Paribas, as well as service as an engineering officer in the United States Navy. He holds an MBA from the UCLA Anderson School of Management and a Bachelor of Science in Engineering from the United States Naval Academy.',
+      ],
+    },
+  },
 ];
