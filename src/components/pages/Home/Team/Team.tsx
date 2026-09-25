@@ -44,8 +44,10 @@ export const Team = () => {
                 <Image src={item.image} alt={item.name} width={100} height={100} />
               </div>
               <div className={styles.itemContent}>
-                <h3 className={styles.itemTitle}>{item.name}</h3>
-                <p className={styles.itemPosition}>{item.position}</p>
+                <div className={styles.itemHeader}>
+                  <h3 className={styles.itemTitle}>{item.name}</h3>
+                  <p className={styles.itemPosition}>{item.position}</p>
+                </div>
                 <div className={styles.itemButtons}>
                   <button className={styles.btnLink} onClick={() => handleOpenModal(item)}>
                     Read more

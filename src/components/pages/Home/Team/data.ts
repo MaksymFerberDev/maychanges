@@ -5,7 +5,7 @@ export const teamData: TTeamData[] = [
     id: 1,
     image: '/assets/pictures/home/team/juless.webp',
     name: 'Jules Brenner',
-    position: 'Founder/CEO',
+    position: 'Founder/Managing Partner',
     linkedin: 'https://www.linkedin.com/in/jules-brenner/',
 
     modal: {
@@ -22,7 +22,7 @@ export const teamData: TTeamData[] = [
     id: 2,
     image: '/assets/pictures/home/team/davella.webp',
     name: 'Ron DaVella',
-    position: 'CFO',
+    position: 'CFO/Managing Partner',
     linkedin: 'https://www.linkedin.com/in/ron-davella-a9893a3/',
 
     modal: {
@@ -38,7 +38,7 @@ export const teamData: TTeamData[] = [
     id: 3,
     image: '/assets/pictures/home/team/BrackHudson.webp',
     name: 'Brack Hudson',
-    position: 'Managing Director',
+    position: 'Managing Director/Operating Partner-Metal Solutions',
     linkedin: 'https://www.linkedin.com/in/brack-hudson-0406a29b/',
 
     modal: {
@@ -72,7 +72,7 @@ export const teamData: TTeamData[] = [
     id: 4,
     image: '/assets/pictures/home/team/thomas.webp',
     name: 'Erik Thomas',
-    position: 'Advisor/Consultant',
+    position: 'Managing Advisor/Operating Partner-Metal Solutions',
     linkedin: '',
 
     modal: {
@@ -105,7 +105,7 @@ export const teamData: TTeamData[] = [
     id: 6,
     image: '/assets/pictures/home/team/nunez.webp',
     name: 'Oneida Nunez',
-    position: 'Vice President of Construction-ASM',
+    position: 'Operating Partner-Infrastructure Construction',
     linkedin: 'https://www.linkedin.com/in/oneida-nunez-63216077',
     modal: {
       short_description:
