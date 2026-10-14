@@ -85,21 +85,21 @@ export const teamData: TTeamData[] = [
   //     ],
   //   },
   // },
-  {
-    id: 5,
-    image: '/assets/pictures/home/team/thomas.webp',
-    name: 'Erik Thomas',
-    position: 'Managing Advisor/Operating Partner-Metal Solutions',
-    linkedin: '',
+  // {
+  //   id: 5,
+  //   image: '/assets/pictures/home/team/thomas.webp',
+  //   name: 'Erik Thomas',
+  //   position: 'Managing Advisor/Operating Partner-Metal Solutions',
+  //   linkedin: '',
 
-    modal: {
-      short_description: 'Eric Thomas is a seasoned executive with extensive experience in aerospace, manufacturing, and operational excellence. As the Founder and CEO of Consolidated Turbine Support, he successfully scaled the company to $55 million in revenue before leading its acquisition by private equity.',
-      description: [
-        'With a strong foundation in mechanical engineering, Eric previously served as a Senior Mechanical Project Engineer, Military Programs at Honeywell Aerospace, where he played a key role in the development of advanced defense and aerospace systems. His expertise extends to manufacturing consulting, having advised companies through his work with California Manufacturing Technology Consulting, focusing on process optimization and efficiency improvements.',
-        'Eric holds a Bachelor of Science in Mechanical Engineering from Washington State University and is a certified Six Sigma Plus Black Belt, demonstrating his commitment to operational excellence and continuous improvement.',
-      ]
-    }
-  },
+  //   modal: {
+  //     short_description: 'Eric Thomas is a seasoned executive with extensive experience in aerospace, manufacturing, and operational excellence. As the Founder and CEO of Consolidated Turbine Support, he successfully scaled the company to $55 million in revenue before leading its acquisition by private equity.',
+  //     description: [
+  //       'With a strong foundation in mechanical engineering, Eric previously served as a Senior Mechanical Project Engineer, Military Programs at Honeywell Aerospace, where he played a key role in the development of advanced defense and aerospace systems. His expertise extends to manufacturing consulting, having advised companies through his work with California Manufacturing Technology Consulting, focusing on process optimization and efficiency improvements.',
+  //       'Eric holds a Bachelor of Science in Mechanical Engineering from Washington State University and is a certified Six Sigma Plus Black Belt, demonstrating his commitment to operational excellence and continuous improvement.',
+  //     ]
+  //   }
+  // },
 
   // {
   //   id: 5,
