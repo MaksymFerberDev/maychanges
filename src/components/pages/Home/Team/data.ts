@@ -52,6 +52,23 @@ export const teamData: TTeamData[] = [
       ],
     },
   },
+  {
+    id: 4,
+    image: '/assets/pictures/home/team/ChuckPeterson.webp',
+    name: 'Chuck Peterson',
+    position: 'Metal Solutions - Operating Advisor',
+    linkedin: 'https://www.linkedin.com/in/petersonchuck1/',
+
+    modal: {
+      short_description:
+        'Chuck Peterson is an operating partner, CEO and board advisor who helps owners, investors and boards of lower-middle-market companies grow sales, expand EBITDA, complete acquisitions and prepare for successful exits. Over three decades he has led turnarounds, acquisitions and integrations across manufacturing, distribution and technology.',
+      description: [
+        'Chuck is currently Operating Partner at Metals Solutions Holdings LLC, driving acquisitions for the platform company. Previously, as CEO of West Coast Chain Mfg. Company (2022–2026), maker of Key-Bak branded retraction products, he led a turnaround that modernized systems, accelerated product development and cut labor costs, then sold the company to a strategic buyer at a high-single-digit multiple. As President of Reliable Source, Inc. (2016–2022), he delivered 5X sales growth in under two years and led the diligence and integration of five acquisitions in three and a half years, including Lynam Industries, a company twice Reliable’s size. As President of Lynam (2018–2022), a supplier to the firms that build data centers for Amazon, Microsoft, Google and Meta, he drove record post-acquisition sales and EBITDA.',
+        'Earlier, as President of Forbes Industries (2013–2015), he rebuilt the leadership team and returned the company to profitability in under two years, growing sales 20%. Over 15 years at parent company The Winsford Corporation, including roles as EVP, COO and CFO, he negotiated agreements with Marriott, Hilton, Four Seasons and Shangri-La and led the company profitably through the 2008–2010 financial crisis.',
+        'Chuck began his career in finance, with Fortune 500 experience at Transamerica, Rockwell and Baxter Healthcare, including serving as CFO of a Transamerica subsidiary. He has served on the boards and advisory boards of West Coast Chain Mfg., iProcess Global Research, Zipstored, CartQue and Forbes Industries Asia. He holds an MBA from Chapman University and a B.S. in Business Administration from St. Cloud State University.',
+      ],
+    },
+  },
   // {
   //   id: 3,
   //   image: '/assets/pictures/home/team/pettibone.webp',
@@ -69,7 +86,7 @@ export const teamData: TTeamData[] = [
   //   },
   // },
   {
-    id: 4,
+    id: 5,
     image: '/assets/pictures/home/team/thomas.webp',
     name: 'Erik Thomas',
     position: 'Managing Advisor/Operating Partner-Metal Solutions',
